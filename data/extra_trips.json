@@ -1,11 +1,537 @@
 {
  "_note": "Trips that are not rows in a schedule sheet (e.g. hiking camps). Same fields as the schedule; dates are ISO (YYYY-MM-DD).",
+ "_camps_note": "Hiking camps 1974–2022 are from https://kootenaymountaineeringclub.ca/kmc-hiking-camps-archive/ (map sheet + grid reference converted to latitude/longitude). Exact camp dates before 2025 are not known, so they show as \"Summer <year>\". 2023 and 2024 are not in the archive yet.",
  "trips": [
-  {"year": 2026, "date": "2026-07-11", "end": "2026-07-18", "name": "Hiking Camp 1 – Hume Creek", "type": "Camp", "place_name": "Hiking Camp 2026 – Hume Creek",
-   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."},
-  {"year": 2026, "date": "2026-07-18", "end": "2026-07-25", "name": "Hiking Camp 2 – Hume Creek", "type": "Camp", "place_name": "Hiking Camp 2026 – Hume Creek",
-   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."},
-  {"year": 2026, "date": "2026-07-25", "end": "2026-08-01", "name": "Hiking Camp 3 – Hume Creek", "type": "Camp", "place_name": "Hiking Camp 2026 – Hume Creek",
-   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."}
+  {
+   "year": 1974,
+   "date": "1974-07-15",
+   "when_text": "Summer 1974",
+   "name": "Hiking Camp 1974 – Bonnie Gem",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Bonnie Gem (hiking camp)",
+   "notes": "Bonnie Gem, Purcells. Map 82K2, grid ref 224-574."
+  },
+  {
+   "year": 1975,
+   "date": "1975-07-15",
+   "when_text": "Summer 1975",
+   "name": "Hiking Camp 1975 – Gwillim Lakes",
+   "type": "Camp",
+   "range": "Valhallas",
+   "place_name": "Gwillim Lakes (hiking camp)",
+   "notes": "Gwillim Lakes, Valhallas. Map 82F13, grid ref 470-177."
+  },
+  {
+   "year": 1976,
+   "date": "1976-07-15",
+   "when_text": "Summer 1976",
+   "name": "Hiking Camp 1976 – Wilson Creek",
+   "type": "Camp",
+   "range": "Goat Range",
+   "place_name": "Wilson Creek (hiking camp)",
+   "notes": "Wilson Creek, Goat Range. Map 82K6, grid ref 803-696."
+  },
+  {
+   "year": 1977,
+   "date": "1977-07-15",
+   "when_text": "Summer 1977",
+   "name": "Hiking Camp 1977 – St. Mary's Alpine",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "St. Mary's Alpine (hiking camp)",
+   "notes": "St. Mary's Alpine, Purcells. Map 82F16, grid ref 451-250."
+  },
+  {
+   "year": 1978,
+   "date": "1978-07-15",
+   "when_text": "Summer 1978",
+   "name": "Hiking Camp 1978 – Demers Lakes",
+   "type": "Camp",
+   "range": "Valhallas",
+   "place_name": "Demers Lakes (hiking camp)",
+   "notes": "Demers Lakes, Valhallas. Map 82F13, grid ref 492-253."
+  },
+  {
+   "year": 1979,
+   "date": "1979-07-15",
+   "when_text": "Summer 1979",
+   "name": "Hiking Camp 1979 – Wee Sandy Lake",
+   "type": "Camp",
+   "range": "Valhallas",
+   "place_name": "Wee Sandy Lake (hiking camp)",
+   "notes": "Wee Sandy Lake, Valhallas. Map 82F13, grid ref 595-343."
+  },
+  {
+   "year": 1980,
+   "date": "1980-07-15",
+   "when_text": "Summer 1980",
+   "name": "Hiking Camp 1980 – Bonnie Gem",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Bonnie Gem (hiking camp)",
+   "notes": "Bonnie Gem, Purcells. Map 82K2, grid ref 224-574."
+  },
+  {
+   "year": 1981,
+   "date": "1981-07-15",
+   "when_text": "Summer 1981",
+   "name": "Hiking Camp 1981 – Clint Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Clint Creek (hiking camp)",
+   "notes": "Clint Creek, Purcells. Map 82K2, grid ref 145-582."
+  },
+  {
+   "year": 1982,
+   "date": "1982-07-15",
+   "when_text": "Summer 1982",
+   "name": "Hiking Camp 1982 – Monashee Park",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Monashee Park (hiking camp)",
+   "notes": "Monashee Park, Monashees. Map 82L8, grid ref 166-921."
+  },
+  {
+   "year": 1983,
+   "date": "1983-07-15",
+   "when_text": "Summer 1983",
+   "name": "Hiking Camp 1983 – Gwillim Lakes",
+   "type": "Camp",
+   "range": "Valhallas",
+   "place_name": "Gwillim Lakes (hiking camp)",
+   "notes": "Gwillim Lakes, Valhallas. Map 82F13, grid ref 470-177."
+  },
+  {
+   "year": 1984,
+   "date": "1984-07-15",
+   "when_text": "Summer 1984",
+   "name": "Hiking Camp 1984 – Hume Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Hume Creek (hiking camp)",
+   "notes": "Hume Creek, Purcells. Map 82K14, grid ref 942-286."
+  },
+  {
+   "year": 1985,
+   "date": "1985-07-15",
+   "when_text": "Summer 1985",
+   "name": "Hiking Camp 1985 – Valley of the Lakes",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Valley of the Lakes (hiking camp)",
+   "notes": "Valley of the Lakes, Purcells. Map 82K14, grid ref 959-408."
+  },
+  {
+   "year": 1986,
+   "date": "1986-07-15",
+   "when_text": "Summer 1986",
+   "name": "Hiking Camp 1986 – Anemone Pass",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Anemone Pass (hiking camp)",
+   "notes": "Anemone Pass, Purcells. Map 82M16, grid ref 065-608."
+  },
+  {
+   "year": 1987,
+   "date": "1987-07-15",
+   "when_text": "Summer 1987",
+   "name": "Hiking Camp 1987 – Limestone Lakes",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Limestone Lakes (hiking camp)",
+   "notes": "Limestone Lakes, Rockies. Map 82J6, grid ref 272-915."
+  },
+  {
+   "year": 1988,
+   "date": "1988-07-15",
+   "when_text": "Summer 1988",
+   "name": "Hiking Camp 1988 – North Glacier Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "North Glacier Creek (hiking camp)",
+   "notes": "North Glacier Creek, Purcells. Map 82K7, grid ref 171-876."
+  },
+  {
+   "year": 1989,
+   "date": "1989-07-15",
+   "when_text": "Summer 1989",
+   "name": "Hiking Camp 1989 – Wildcat Creek (Mistaya)",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Wildcat Creek (Mistaya) (hiking camp)",
+   "notes": "Wildcat Creek (Mistaya), Rockies. Map 82N10, grid ref 250-268."
+  },
+  {
+   "year": 1990,
+   "date": "1990-07-15",
+   "when_text": "Summer 1990",
+   "name": "Hiking Camp 1990 – Ghost Creek (Mt Cartier)",
+   "type": "Camp",
+   "range": "Selkirks",
+   "place_name": "Ghost Creek (Mt Cartier) (hiking camp)",
+   "notes": "Ghost Creek (Mt Cartier), Selkirks. Map 82L16, grid ref 278-414."
+  },
+  {
+   "year": 1991,
+   "date": "1991-07-15",
+   "when_text": "Summer 1991",
+   "name": "Hiking Camp 1991 – International Basin",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "International Basin (hiking camp)",
+   "notes": "International Basin, Purcells. Map 82K14, grid ref 890-480."
+  },
+  {
+   "year": 1992,
+   "date": "1992-07-15",
+   "when_text": "Summer 1992",
+   "name": "Hiking Camp 1992 – Edouard Pass",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Edouard Pass (hiking camp)",
+   "notes": "Edouard Pass, Purcells. Map 82K10, grid ref 275-084."
+  },
+  {
+   "year": 1993,
+   "date": "1993-07-15",
+   "when_text": "Summer 1993",
+   "name": "Hiking Camp 1993 – Dunbar Lakes",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Dunbar Lakes (hiking camp)",
+   "notes": "Dunbar Lakes, Purcells. Map 82K15, grid ref 315-227."
+  },
+  {
+   "year": 1994,
+   "date": "1994-07-15",
+   "when_text": "Summer 1994",
+   "name": "Hiking Camp 1994 – Valley of the Moon",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Valley of the Moon (hiking camp)",
+   "notes": "Valley of the Moon, Monashees. Map 82L9, grid ref 150-958."
+  },
+  {
+   "year": 1995,
+   "date": "1995-07-15",
+   "when_text": "Summer 1995",
+   "name": "Hiking Camp 1995 – Rusty Ridge",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Rusty Ridge (hiking camp)",
+   "notes": "Rusty Ridge, Purcells. Map 82F16, grid ref 553-380."
+  },
+  {
+   "year": 1996,
+   "date": "1996-07-15",
+   "when_text": "Summer 1996",
+   "name": "Hiking Camp 1996 – Hope Creek",
+   "type": "Camp",
+   "range": "Selkirks",
+   "place_name": "Hope Creek (hiking camp)",
+   "notes": "Hope Creek, Selkirks. Map 82K6, grid ref 927-938."
+  },
+  {
+   "year": 1997,
+   "date": "1997-07-15",
+   "when_text": "Summer 1997",
+   "name": "Hiking Camp 1997 – Sugarplum Spire",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Sugarplum Spire (hiking camp)",
+   "notes": "Sugarplum Spire, Purcells. Map 82K14, grid ref 897-352."
+  },
+  {
+   "year": 1998,
+   "date": "1998-07-15",
+   "when_text": "Summer 1998",
+   "name": "Hiking Camp 1998 – Marvel Pass",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Marvel Pass (hiking camp)",
+   "notes": "Marvel Pass, Rockies. Map 82J13, grid ref 001-320."
+  },
+  {
+   "year": 1999,
+   "date": "1999-07-15",
+   "when_text": "Summer 1999",
+   "name": "Hiking Camp 1999 – Copeland Ridge",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Copeland Ridge (hiking camp)",
+   "notes": "Copeland Ridge, Monashees. Map 82M1, grid ref 963-625."
+  },
+  {
+   "year": 2000,
+   "date": "2000-07-15",
+   "when_text": "Summer 2000",
+   "name": "Hiking Camp 2000 – Moonraker Peak",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Moonraker Peak (hiking camp)",
+   "notes": "Moonraker Peak, Purcells. Map 82N6, grid ref 858-837."
+  },
+  {
+   "year": 2001,
+   "date": "2001-07-15",
+   "when_text": "Summer 2001",
+   "name": "Hiking Camp 2001 – Fitch Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Fitch Creek (hiking camp)",
+   "notes": "Fitch Creek, Purcells. Map 82K14, grid ref 931-251."
+  },
+  {
+   "year": 2002,
+   "date": "2002-07-15",
+   "when_text": "Summer 2002",
+   "name": "Hiking Camp 2002 – Blanket Creek",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Blanket Creek (hiking camp)",
+   "notes": "Blanket Creek, Monashees. Map 82L16, grid ref 113-268."
+  },
+  {
+   "year": 2003,
+   "date": "2003-07-15",
+   "when_text": "Summer 2003",
+   "name": "Hiking Camp 2003 – Mt Soderholm",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Mt Soderholm (hiking camp)",
+   "notes": "Mt Soderholm, Rockies. Map 82J12, grid ref 085-210."
+  },
+  {
+   "year": 2004,
+   "date": "2004-07-15",
+   "when_text": "Summer 2004",
+   "name": "Hiking Camp 2004 – Endless Ridges",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Endless Ridges (hiking camp)",
+   "notes": "Endless Ridges, Purcells. Map 82K1, grid ref 613-408."
+  },
+  {
+   "year": 2005,
+   "date": "2005-07-15",
+   "when_text": "Summer 2005",
+   "name": "Hiking Camp 2005 – Mt Llewelyn",
+   "type": "Camp",
+   "range": "Selkirks",
+   "place_name": "Mt Llewelyn (hiking camp)",
+   "notes": "Mt Llewelyn, Selkirks. Map 82K13, grid ref 387-492."
+  },
+  {
+   "year": 2006,
+   "date": "2006-07-15",
+   "when_text": "Summer 2006",
+   "name": "Hiking Camp 2006 – Twilight Creek",
+   "type": "Camp",
+   "range": "Selkirks",
+   "place_name": "Twilight Creek (hiking camp)",
+   "notes": "Twilight Creek, Selkirks. Map 82N12, grid ref 540-083."
+  },
+  {
+   "year": 2007,
+   "date": "2007-07-15",
+   "when_text": "Summer 2007",
+   "name": "Hiking Camp 2007 – Kain Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Kain Creek (hiking camp)",
+   "notes": "Kain Creek, Purcells. Map 82K15, grid ref 202-350."
+  },
+  {
+   "year": 2008,
+   "date": "2008-07-15",
+   "when_text": "Summer 2008",
+   "name": "Hiking Camp 2008 – International Basin",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "International Basin (hiking camp)",
+   "notes": "International Basin, Purcells. Map 82K14, grid ref 891-482."
+  },
+  {
+   "year": 2009,
+   "date": "2009-07-15",
+   "when_text": "Summer 2009",
+   "name": "Hiking Camp 2009 – Limestone Lakes",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Limestone Lakes (hiking camp)",
+   "notes": "Limestone Lakes, Rockies. Map 82J6, grid ref 205-921."
+  },
+  {
+   "year": 2010,
+   "date": "2010-07-15",
+   "when_text": "Summer 2010",
+   "name": "Hiking Camp 2010 – Mica",
+   "type": "Camp",
+   "range": "Selkirks",
+   "place_name": "Mica (hiking camp)",
+   "notes": "Mica, Selkirks. Map 83D1, grid ref 055-625."
+  },
+  {
+   "year": 2011,
+   "date": "2011-07-15",
+   "when_text": "Summer 2011",
+   "name": "Hiking Camp 2011 – Hume Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Hume Creek (hiking camp)",
+   "notes": "Hume Creek, Purcells. Map 82K14, grid ref 942-286."
+  },
+  {
+   "year": 2012,
+   "date": "2012-07-15",
+   "when_text": "Summer 2012",
+   "name": "Hiking Camp 2012 – Carnarvon Lake",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Carnarvon Lake (hiking camp)",
+   "notes": "Carnarvon Lake, Rockies. Map 82J7, grid ref 641-817."
+  },
+  {
+   "year": 2013,
+   "date": "2013-07-15",
+   "when_text": "Summer 2013",
+   "name": "Hiking Camp 2013 – Echo Lake (Howser)",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Echo Lake (Howser) (hiking camp)",
+   "notes": "Echo Lake (Howser), Purcells. Map 82K7, grid ref 148-927."
+  },
+  {
+   "year": 2014,
+   "date": "2014-07-15",
+   "when_text": "Summer 2014",
+   "name": "Hiking Camp 2014 – Marvel Pass",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Marvel Pass (hiking camp)",
+   "notes": "Marvel Pass, Rockies. Map 82J13, grid ref 999-329."
+  },
+  {
+   "year": 2015,
+   "date": "2015-07-15",
+   "when_text": "Summer 2015",
+   "name": "Hiking Camp 2015 – Valley of the Moon",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Valley of the Moon (hiking camp)",
+   "notes": "Valley of the Moon, Monashees. Map 82L9, grid ref 150-958."
+  },
+  {
+   "year": 2016,
+   "date": "2016-07-15",
+   "when_text": "Summer 2016",
+   "name": "Hiking Camp 2016 – Wolverine Pass",
+   "type": "Camp",
+   "range": "Rockies",
+   "place_name": "Wolverine Pass (hiking camp)",
+   "notes": "Wolverine Pass, Rockies. Map 82N1, grid ref 661-518."
+  },
+  {
+   "year": 2017,
+   "date": "2017-07-15",
+   "when_text": "Summer 2017",
+   "name": "Hiking Camp 2017 – Edouard Pass",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Edouard Pass (hiking camp)",
+   "notes": "Edouard Pass, Purcells. Map 82K10, grid ref 275-082."
+  },
+  {
+   "year": 2018,
+   "date": "2018-07-15",
+   "when_text": "Summer 2018",
+   "name": "Hiking Camp 2018 – Sourds Creek (Scrip Range)",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Sourds Creek (Scrip Range) (hiking camp)",
+   "notes": "Sourds Creek (Scrip Range), Monashees."
+  },
+  {
+   "year": 2019,
+   "date": "2019-07-15",
+   "when_text": "Summer 2019",
+   "name": "Hiking Camp 2019 – Brewster Basin",
+   "type": "Camp",
+   "range": "Selkirks",
+   "place_name": "Brewster Basin (hiking camp)",
+   "notes": "Brewster Basin, Selkirks."
+  },
+  {
+   "year": 2022,
+   "date": "2022-07-15",
+   "when_text": "Summer 2022",
+   "name": "Hiking Camp 2022 – Headwaters of Septet Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Headwaters of Septet Creek (hiking camp)",
+   "notes": "Headwaters of Septet Creek, Purcells."
+  },
+  {
+   "year": 2025,
+   "date": "2025-07-12",
+   "end": "2025-07-19",
+   "name": "Hiking Camp 1 – Monashee Lake",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Monashee Lake (hiking camp)",
+   "notes": "Monashee Lake, between Mt. Severide and the Pinnacles (Monashee Park), about 2000 m. Weather cut the week short: the group walked out to the Monashee Creek trailhead."
+  },
+  {
+   "year": 2025,
+   "date": "2025-07-19",
+   "end": "2025-07-26",
+   "name": "Hiking Camp 2 – Monashee Lake",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Monashee Lake (hiking camp)",
+   "status": "cancelled",
+   "notes": "Monashee Lake, Monashee Park. Camp 2 was cancelled."
+  },
+  {
+   "year": 2025,
+   "date": "2025-07-26",
+   "end": "2025-08-02",
+   "name": "Hiking Camp 3 – Monashee Lake",
+   "type": "Camp",
+   "range": "Monashees",
+   "place_name": "Monashee Lake (hiking camp)",
+   "notes": "Monashee Lake, between Mt. Severide and the Pinnacles (Monashee Park), about 2000 m."
+  },
+  {
+   "year": 2026,
+   "date": "2026-07-11",
+   "end": "2026-07-18",
+   "name": "Hiking Camp 1 – Hume Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Hume Creek (hiking camp)",
+   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."
+  },
+  {
+   "year": 2026,
+   "date": "2026-07-18",
+   "end": "2026-07-25",
+   "name": "Hiking Camp 2 – Hume Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Hume Creek (hiking camp)",
+   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."
+  },
+  {
+   "year": 2026,
+   "date": "2026-07-25",
+   "end": "2026-08-01",
+   "name": "Hiking Camp 3 – Hume Creek",
+   "type": "Camp",
+   "range": "Purcells",
+   "place_name": "Hume Creek (hiking camp)",
+   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."
+  }
  ]
 }

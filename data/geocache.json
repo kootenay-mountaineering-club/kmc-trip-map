@@ -1394,5 +1394,463 @@
 }
 ],
 "osm:Elephant Mountain Provincial Park": [],
-"bc:Elephant Mountain Park": []
+"bc:Elephant Mountain Park": [],
+"bc:Record Ridge": [
+{
+"lat": 49.07361,
+"lon": -117.88889,
+"source": "BC Geographical Names",
+"feature": "Ridge (2)",
+"official": "Record Ridge"
+}
+],
+"osm:Baldy Rocks": [
+{
+"lat": 49.05141,
+"lon": -117.03305,
+"source": "OpenStreetMap",
+"feature": "natural/peak",
+"official": "Baldy Rocks"
+}
+],
+"osm:Kapapa Cedars": [],
+"osm:KaPapa": [],
+"bc:Five Mile Creek~nelson": [
+{
+"lat": 49.54944,
+"lon": -117.24194,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Five Mile Creek"
+},
+{
+"lat": 50.66889,
+"lon": -117.45194,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Five Mile Creek"
+}
+],
+"osm:Grizzly Cabin": [
+{
+"lat": 50.345,
+"lon": -119.04917,
+"source": "OpenStreetMap",
+"feature": "amenity/shelter",
+"official": "Mountain View Cabin"
+}
+],
+"bc:Gem Hill~rossland": [
+{
+"lat": 49.29306,
+"lon": -117.92667,
+"source": "BC Geographical Names",
+"feature": "Hill",
+"official": "Gem Hill"
+}
+],
+"osm:Igloo Cabin": [
+{
+"lat": 49.16486,
+"lon": -117.88831,
+"source": "OpenStreetMap",
+"feature": "tourism/wilderness_hut",
+"official": "Igloo Cabin"
+}
+],
+"bc:Mount Crowe~rossland": [
+{
+"lat": 49.22,
+"lon": -117.87944,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Crowe"
+}
+],
+"osm:Rossland Range": [
+{
+"lat": 49.39165,
+"lon": -118.04983,
+"source": "OpenStreetMap",
+"feature": "natural/mountain_range",
+"official": "Rossland Range"
+},
+{
+"lat": 49.25953,
+"lon": -118.07943,
+"source": "OpenStreetMap",
+"feature": "natural/mountain_range",
+"official": "Rossland Range"
+}
+],
+"bc:Ripple Mountain": [
+{
+"lat": 49.02833,
+"lon": -117.08028,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Ripple Mountain"
+}
+],
+"bc:Mount Neptune": [
+{
+"lat": 49.23333,
+"lon": -117.86278,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Neptune"
+}
+],
+"bc:Mulvey Lakes": [
+{
+"lat": 49.77111,
+"lon": -117.63833,
+"source": "BC Geographical Names",
+"feature": "Lakes",
+"official": "Mulvey Lakes"
+}
+],
+"bc:Jumbo Pass": [
+{
+"lat": 50.36654,
+"lon": -116.61777,
+"source": "BC Geographical Names",
+"feature": "Pass (2)",
+"official": "Jumbo Pass"
+}
+],
+"bc:Idaho Peak": [
+{
+"lat": 49.97222,
+"lon": -117.30139,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Idaho Peak"
+}
+],
+"bc:Earl Grey Pass": [
+{
+"lat": 50.25222,
+"lon": -116.55,
+"source": "BC Geographical Names",
+"feature": "Pass (2)",
+"official": "Earl Grey Pass"
+}
+],
+"bc:MacBeth Icefield": [
+{
+"lat": 50.41654,
+"lon": -116.80112,
+"source": "BC Geographical Names",
+"feature": "Icefield",
+"official": "Macbeth Icefield"
+}
+],
+"bc:Meadow Mountain~kaslo": [
+{
+"lat": 50.25444,
+"lon": -117.07722,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Meadow Mountain"
+}
+],
+"bc:Mount Grohman": [
+{
+"lat": 49.62472,
+"lon": -117.32111,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Grohman"
+}
+],
+"bc:Mount Jardine": [
+{
+"lat": 50.04389,
+"lon": -117.03833,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Jardine"
+}
+],
+"bc:Mount Jeldness~rossland": [
+{
+"lat": 49.03389,
+"lon": -117.9675,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Jeldness"
+}
+],
+"bc:Mount Stanley~nelson": [
+{
+"lat": 49.54139,
+"lon": -117.94833,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Stanley"
+}
+],
+"bc:Red Mountain~rossland": [
+{
+"lat": 49.10278,
+"lon": -117.82028,
+"source": "BC Geographical Names",
+"feature": "Recreation Facility",
+"official": "Red Mountain"
+},
+{
+"lat": 49.40417,
+"lon": -117.34417,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Red Mountain"
+},
+{
+"lat": 49.09194,
+"lon": -117.82111,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Red Mountain"
+}
+],
+"bc:Redfish Creek~nelson": [
+{
+"lat": 49.61278,
+"lon": -117.04472,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Redfish Creek"
+}
+],
+"osm:Seven Summits Trail": [
+{
+"lat": 49.14223,
+"lon": -117.89225,
+"source": "OpenStreetMap",
+"feature": "highway/cycleway",
+"official": "Seven Summits Trail"
+}
+],
+"osm:Silver Spray Cabin": [
+{
+"lat": 49.82255,
+"lon": -117.09281,
+"source": "OpenStreetMap",
+"feature": "tourism/wilderness_hut",
+"official": "Silver Spray Cabin"
+}
+],
+"bc:Sphinx Mountain": [
+{
+"lat": 49.63083,
+"lon": -116.65778,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Sphinx Mountain"
+}
+],
+"osm:Unnecessary Ridge": [],
+"bc:Unnecessary Mountain": [],
+"bc:Ladybird Mountain": [
+{
+"lat": 49.42417,
+"lon": -117.80889,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Ladybird Mountain"
+}
+],
+"bc:Three Sisters": [
+{
+"lat": 49.17083,
+"lon": -117.04056,
+"source": "BC Geographical Names",
+"feature": "Peaks",
+"official": "Three Sisters"
+},
+{
+"lat": 49.57639,
+"lon": -115.08361,
+"source": "BC Geographical Names",
+"feature": "Peaks",
+"official": "Three Sisters"
+}
+],
+"bc:Mount Paupo": [],
+"bc:Paupo Peak": [],
+"bc:Reco Mountain": [
+{
+"lat": 49.99833,
+"lon": -117.18444,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Reco Mountain"
+}
+],
+"bc:Black Prince Mountain": [],
+"bc:Black Prince": [],
+"bc:Bernard Lake": [],
+"bc:Plaid Lake": [
+{
+"lat": 49.76139,
+"lon": -116.73639,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Plaid Lake"
+}
+],
+"bc:Dominion Mountain": [
+{
+"lat": 49.33778,
+"lon": -117.36,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Dominion Mountain"
+}
+],
+"town:Cranbrook": [
+{
+"lat": 49.50806,
+"lon": -115.74694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Cranbrook"
+}
+],
+"bc:Kootenay Mountain": [
+{
+"lat": 49.24083,
+"lon": -116.8225,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Kootenay Mountain"
+}
+],
+"osm:Birchbank": [
+{
+"lat": 49.1821,
+"lon": -117.71611,
+"source": "OpenStreetMap",
+"feature": "highway/residential",
+"official": "Birchbank Station Road"
+},
+{
+"lat": 49.16313,
+"lon": -117.72858,
+"source": "OpenStreetMap",
+"feature": "leisure/golf_course",
+"official": "Rossland-Trail Country Club - Birchbank Golf Course"
+}
+],
+"osm:Svoboda Road, Nelson": [
+{
+"lat": 49.50404,
+"lon": -117.26506,
+"source": "OpenStreetMap",
+"feature": "highway/residential",
+"official": "Svoboda Road"
+},
+{
+"lat": 49.51455,
+"lon": -117.2584,
+"source": "OpenStreetMap",
+"feature": "highway/residential",
+"official": "Svoboda Road"
+}
+],
+"town:Procter": [
+{
+"lat": 49.61778,
+"lon": -116.96111,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Procter"
+}
+],
+"bc:Monk Lake": [],
+"town:Kaslo": [
+{
+"lat": 49.91056,
+"lon": -116.905,
+"source": "BC Geographical Names",
+"feature": "Village (1)",
+"official": "Kaslo"
+}
+],
+"osm:Whitewater Canyon Trail": [],
+"bc:Whitewater Creek~kaslo": [
+{
+"lat": 50.03944,
+"lon": -117.13611,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Whitewater Creek"
+}
+],
+"osm:Skattebo Reach": [
+{
+"lat": 49.32847,
+"lon": -117.60458,
+"source": "OpenStreetMap",
+"feature": "highway/path",
+"official": "Skattebo Reach Trail"
+}
+],
+"bc:Blue Grouse Basin": [
+{
+"lat": 49.8332,
+"lon": -117.23445,
+"source": "BC Geographical Names",
+"feature": "Basin (5)",
+"official": "Blue Grouse Basin"
+}
+],
+"bc:Elmo Peak": [],
+"bc:Mount Elmo": [],
+"bc:Fry Creek~kaslo": [
+{
+"lat": 50.06653,
+"lon": -116.86778,
+"source": "BC Geographical Names",
+"feature": "Landing (1)",
+"official": "Fry Creek"
+},
+{
+"lat": 50.05861,
+"lon": -116.87694,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Fry Creek"
+}
+],
+"bc:Haystack Mountain": [
+{
+"lat": 49.4675,
+"lon": -116.54139,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Haystack Mountain"
+}
+],
+"bc:Troup": [
+{
+"lat": 49.54986,
+"lon": -117.23444,
+"source": "BC Geographical Names",
+"feature": "Railway Point",
+"official": "Troup"
+}
+],
+"bc:Payne Bluff": [],
+"bc:Sandon": [
+{
+"lat": 49.97556,
+"lon": -117.22722,
+"source": "BC Geographical Names",
+"feature": "Locality",
+"official": "Sandon"
+}
+],
+"bc:Whitewater Glacier": []
 }

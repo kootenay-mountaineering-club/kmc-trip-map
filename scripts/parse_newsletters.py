@@ -10,6 +10,8 @@ import json, re, subprocess, datetime as dt
 M = 'January|February|March|April|May|June|July|August|September|October|November|December'
 MFIX = {'Sepember': 'September'}
 HEAD = re.compile(rf'^\s*((?:{M}|Sepember))\s+(\d{{1,2}})(?:\s*-\s*((?:{M}|Sepember))?\s*(\d{{1,2}}))?\s*-\s*(.+?)\s*$')
+CAMP = re.compile(r'^\s*Camp Report for KMC (First|Second|Third|Fourth) Camp (\d{4})', re.I)
+CAMPNO = {'first': 1, 'second': 2, 'third': 3, 'fourth': 4}
 PART = re.compile(r'^\s*(?:We were|The group was|Cyclists|Thank you to my accomplices|(?:[A-Za-z]+ )?participants)\s*:\s*(.*)', re.I)
 
 
@@ -56,9 +58,19 @@ def main():
     for key, iss in issues.items():
         P = pages(iss['pdf'])
         lines = [(pi + 1, l) for pi, t in enumerate(P) for l in t.split('\n')]
-        heads = [i for i, (_, l) in enumerate(lines) if HEAD.match(l)]
+        heads = [i for i, (_, l) in enumerate(lines) if HEAD.match(l) or CAMP.match(l)]
         for k, i in enumerate(heads):
             pg, l = lines[i]
+            cm = CAMP.match(l)
+            if cm:                       # hiking camp report: participants are listed at the end
+                stop = heads[k + 1] if k + 1 < len(heads) else min(len(lines), i + 600)
+                body = '\n'.join(x for _, x in lines[i + 1:stop])
+                pm = re.search(r'Camp\s+participants:\s*(.+?)(?:\.\s*$|\n\s*\n)', body, re.S | re.M)
+                raw = re.sub(r'\s+', ' ', pm.group(1)) if pm else None
+                reports.append({'issue': key, 'page': pg, 'date': None, 'end': None, 'camp_no': CAMPNO[cm.group(1).lower()], 'camp_year': int(cm.group(2)),
+                                'title': f'KMC {cm.group(1).title()} Camp {cm.group(2)}', 'writer': None,
+                                'participants': split_names(raw) if raw else [], 'participants_raw': raw, 'stats': {}, 'words': len(body.split())})
+                continue
             m = HEAD.match(l)
             mon, day, mon2, day2, rest = m.groups()
             title = rest; writer = None
@@ -91,7 +103,7 @@ def main():
                             'stats': num_stats(body), 'words': len(body.split())})
     json.dump(reports, open('data/reports.json', 'w'), indent=1, ensure_ascii=False)
     for r in reports:
-        print(r['date'], r['page'], r['title'][:45], '|', r['writer'], '|', len(r['participants']), r['stats'])
+        print(r['date'] or 'camp', r['page'], r['title'][:45], '|', r['writer'], '|', len(r['participants']), r['stats'])
 
 
 if __name__ == '__main__':

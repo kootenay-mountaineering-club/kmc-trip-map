@@ -1,5 +1,29 @@
 {
- "2024": {"file": "raw/s2024_web.csv", "note": "public web version (date, destination, type, grade only)"},
- "2025": {"file": "raw/s2025.csv", "note": "from the 2025 summer trip planner; phone and email columns removed"},
- "2026": {"csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRTOQU2-8Ws_3sdPFi1I3PrZeGldjmF0G1ix43szDdarhz1Gc4fvZAcyWc9HV48cSCShHNBB-yMOI_P/pub?output=csv"}
+ "_note": "One entry per published schedule sheet. 'season' is summer or winter; each trip's year comes from its own date.",
+ "2024-summer": {
+  "file": "raw/s2024_web.csv",
+  "note": "public web version (date, destination, type, grade only)",
+  "season": "summer"
+ },
+ "2025-summer": {
+  "file": "raw/s2025.csv",
+  "note": "from the 2025 summer trip planner; phone and email columns removed",
+  "season": "summer"
+ },
+ "2026-summer": {
+  "csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRTOQU2-8Ws_3sdPFi1I3PrZeGldjmF0G1ix43szDdarhz1Gc4fvZAcyWc9HV48cSCShHNBB-yMOI_P/pub?output=csv",
+  "season": "summer"
+ },
+ "2025-26-winter": {
+  "csv": "https://docs.google.com/spreadsheets/d/1Rcyc4ohantworQO7vmgXEDhk_XAY8LC-5ujbh2AiPas/export?format=csv&gid=1116716462",
+  "season": "winter",
+  "note": "KMC 2025-2026 Winter Trip Planner, tab '2026 trips' (phone/email columns are never read into the site)"
+ },
+ "2015-2024-archive": {
+  "file": "raw/s2015-2024_archive.csv",
+  "season": "auto",
+  "priority": 0,
+  "default_type": "Hike",
+  "note": "KMC summer trips 2015-2024 (file name says 2019-2024) workbook (organizer list; phone/email removed). Lower priority: trips already in a season planner are not repeated, but their organizer etc. is filled in."
+ }
 }

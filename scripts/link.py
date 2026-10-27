@@ -40,12 +40,12 @@ def main():
     missing = set()
     out = []
     for t in trips:
-        pid = alias.get(norm(t['name']))
+        pid = alias.get(norm(t['name'])) or alias.get(norm(t.get('place_name') or ''))
         p = places.get(pid) if pid else None
         if not p:
             missing.add(t['name'])
         rec = {k: t.get(k) for k in ('id', 'year', 'date', 'end', 'name', 'type', 'grade', 'organizer', 'notes', 'participants_count',
-                                     'non_members', 'status', 'moved_to', 'parent_tot')}
+                                     'non_members', 'status', 'moved_to', 'parent_tot', 'season', 'ates', 'when_text', 'range')}
         rec['place'] = {'id': pid, 'name': p['name'], 'lat': p.get('lat'), 'lon': p.get('lon'), 'precision': p.get('precision'),
                         'source': p.get('source'), 'official': p.get('official'), 'point': p.get('point')} if p else None
         rec['reports'] = []
@@ -53,6 +53,13 @@ def main():
     # newsletter reports -> trips
     unmatched = []
     for r in reports:
+        if r.get('camp_no'):                         # hiking camp report -> "Hiking Camp <n> ..." of that year
+            t = next((t for t in out if t['type'] == 'Camp' and t['year'] == r['camp_year'] and f"Camp {r['camp_no']} " in t['name'] + ' '), None)
+            if not t:
+                unmatched.append(r); continue
+            t['reports'].append({'issue': r['issue'], 'issue_title': issues[r['issue']]['title'], 'url': issues[r['issue']].get('url'), 'page': r['page'],
+                                 'title': r['title'], 'writer': None, 'participants': [people.get(n, n) for n in r['participants']], 'stats': {}, 'match_score': 9})
+            continue
         d0 = dt.date.fromisoformat(r['date'])
         cands = []
         for t in out:

@@ -4,7 +4,14 @@ Kootenay Mountaineering Club trips on a map, year by year. This is a free static
 
 ## What it shows
 
-- Every trip from the published summer schedules for 2024 (public web version), 2025 and 2026, placed on a topographic map.
+- Every trip from the club's schedules, placed on a topographic map:
+  - 2015–2024 from the summer-trips archive workbook (`raw/s2015-2024_archive.csv`);
+  - 2024 from the public web version;
+  - 2025 and 2026 summer planners;
+  - the 2025–26 winter planner;
+  - all hiking camps since 1974.
+
+  Trips listed in two sources are merged.
 - Places visited more than once get a single marker showing the number of trips.
 - **Year selector:** All years, 2026, 2025 or 2024.
 - **Filters:** trip type, effort (A–E), Parent & Tot, and search. A checkbox shows postponed and cancelled trips as well.
@@ -25,7 +32,9 @@ The GitHub Action (`.github/workflows/build.yml`) runs steps 1, 2 and 4 on every
 
 ## Yearly upkeep
 
-1. **New season:** add the year to `data/schedules.json` with the sheet's "Publish to web → CSV" link.
+1. **New season:** add an entry to `data/schedules.json`, one per schedule sheet, with `"season": "summer"` or `"winter"`. The `csv` address can be the sheet's "Publish to web → CSV" link, or, for a sheet shared as "anyone with the link", `https://docs.google.com/spreadsheets/d/<sheet id>/export?format=csv&gid=<tab id>`. Each trip's year comes from its own date, so a winter planner (Nov–Mar) fills two calendar years.
+   - The winter planner's extra **ATES** column is shown as "Avalanche terrain: Simple / Challenging / Complex". Winter grades use the winter scale (C = average, D = strenuous; 1 = track skiing … 4 = advanced touring).
+   - **Hiking camps** go in `data/extra_trips.json`, with their location in `data/place_list.txt` as `ll:lat,lon`. The camp archive (1974–2022, from the club website's map sheet + grid references) is already in. Year buttons start at `first_year` in `config.json` (2015); older camps show under **All years** with **Hiking camps** (or the Camp chip) selected.
    Hiking camps (not rows in the sheet) go in `data/extra_trips.json`, and their location goes in `data/place_list.txt` as `ll:lat,lon`.
 2. **New destinations** show up in `data/places_todo.txt`, or in the Action log as "no place entry for". For each one, add a line to `data/place_list.txt`:
    `Place name | bc:Official Name  (or osm:search text, town:Community, ll:lat,lon) | names used in the schedule`

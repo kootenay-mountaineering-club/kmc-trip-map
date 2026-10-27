@@ -12,10 +12,10 @@ Run from the repository root:  python scripts/build_places.py
 import json, os, re, sys, time, urllib.parse, urllib.request
 
 DATA = 'data'
-BBOX = (48.9, 50.9, -119.2, -115.9)       # lat min/max, lon min/max: West Kootenay and a margin
+BBOX = (48.6, 51.6, -119.4, -114.5)       # lat min/max, lon min/max: West Kootenay and a margin
 TOWNS = {'nelson': (49.49, -117.29), 'castlegar': (49.32, -117.66), 'grand forks': (49.03, -118.44), 'trail': (49.10, -117.71),
          'rossland': (49.08, -117.80), 'kaslo': (49.91, -116.91), 'new denver': (49.99, -117.37), 'salmo': (49.19, -117.28),
-         'christina lake': (49.04, -118.21), 'creston': (49.10, -116.51), 'crawford bay': (49.68, -116.83)}
+         'christina lake': (49.04, -118.21), 'creston': (49.10, -116.51), 'crawford bay': (49.68, -116.83), 'cranbrook': (49.51, -115.77)}
 UA = {'User-Agent': 'kmc-trips/1.0 (Kootenay Mountaineering Club trip map)'}
 
 
@@ -80,7 +80,7 @@ def main():
                 try:
                     cache[opt] = bc(arg, town=kind == 'town') if kind != 'osm' else osm(arg)
                 except Exception as e:
-                    print('lookup failed', opt, e, file=sys.stderr); cache[opt] = None
+                    print('lookup failed (will try again next run)', opt, e, file=sys.stderr); continue
             hits = list(cache[opt] or [])
             if hits:
                 ref = TOWNS.get(near.strip().lower(), TOWNS['nelson'])

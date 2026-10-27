@@ -33,21 +33,27 @@
 
   const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const fmt = (d, y = true) => { const [Y, M, D] = d.split('-').map(Number); return `${MON[M - 1]} ${D}${y ? ', ' + Y : ''}`; };
-  const when = t => t.end ? `${fmt(t.date, false)} – ${fmt(t.end)}` : fmt(t.date);
-  const TYPES = { Camp: '#6b3fa0', Hike: '#2f7d4a', Scramble: '#b0522c', Snowshoe: '#3b7fb8', Ski: '#5a55b5', Bike: '#c88a12', Paddle: '#1b8f9e', Climb: '#a23b72', Other: '#777' };
+  const when = t => t.when_text ? t.when_text : t.end ? `${fmt(t.date, false)} – ${fmt(t.end)}` : fmt(t.date);
+  const TYPES = { Camp: '#6b3fa0', Hike: '#2f7d4a', Scramble: '#b0522c', Snowshoe: '#4c9bd3', Ski: '#1d4f9e', Bike: '#c88a12', Paddle: '#1b8f9e', Climb: '#a23b72', Other: '#777' };
   const PHYS = { A: 'easy', B: 'moderate', C: 'strenuous', D: 'very strenuous', E: 'extended, multi-day' };
   const TECH = { 1: 'hike on trail', 2: 'scramble / off-trail', 3: 'scramble, some exposure', 4: 'climb', 5: 'climb, continual belays' };
   const BIKE = { 1: 'suitable for all bikes', 2: 'hybrid or mountain bike recommended', 3: 'moderate mountain-biking skills' };
+  const WPHYS = { A: 'easy', B: 'moderate', C: 'average', D: 'strenuous', E: 'strenuous, multi-day' };            // winter planner scale
+  const WTECH = { 1: 'track skiing', 2: 'off track', 3: 'moderate touring', 4: 'advanced touring' };
+  const ATES = { Simple: 'low-angle or forested slopes', Challenging: 'defined avalanche paths, many options', Complex: 'multiple avalanche paths, terrain traps, minimal options' };
   const gradeText = t => {
     const g = t.grade; if (!g) return '';
-    const p = (g.physical || '').split('').map(c => PHYS[c]).filter(Boolean).join(' to ');
-    const tt = (g.technical || '').split('/').map(n => (t.type === 'Bike' ? BIKE : TECH)[n]).filter(Boolean).join(' to ');
+    const winter = t.season === 'winter';
+    const p = (g.physical || '').split('').map(c => (winter ? WPHYS : PHYS)[c]).filter(Boolean).join(' to ');
+    const scale = t.type === 'Bike' ? BIKE : winter && ['Ski', 'Snowshoe'].includes(t.type) ? WTECH : TECH;
+    const tt = (g.technical || '').split('/').map(n => scale[n]).filter(Boolean).join(' to ');
     return [p, tt].filter(Boolean).join('; ');
   };
-  const years = [...new Set(trips.map(t => t.year))].sort((a, b) => b - a);
+  const FIRST = cfg.first_year || 2015;      // earlier years (old hiking camps) appear only under "All years" with Camp selected
+  const years = [...new Set(trips.map(t => t.year))].filter(y => y >= FIRST).sort((a, b) => b - a);
 
   // ---------------- state (kept in the URL hash so links can be shared)
-  const st = { year: 'all', types: new Set(), grade: '', pt: false, gps: false, showAll: false, q: '', view: 'map', place: null, trip: null };
+  const st = { year: 'all', season: '', types: new Set(), grade: '', pt: false, gps: false, showAll: false, q: '', view: 'map', place: null, trip: null };
   const readHash = () => {
     const h = new URLSearchParams(location.hash.slice(1));
     st.year = h.get('y') || 'all'; st.place = h.get('p'); st.trip = h.get('t'); st.view = h.has('list') ? 'list' : 'map';
@@ -65,7 +71,9 @@
   readHash();
 
   const inYear = t => st.year === 'all' || String(t.year) === String(st.year);
-  const visible = t => inYear(t) && (st.showAll || t.status === 'held') && (!st.types.size || st.types.has(t.type))
+  const early = t => t.year < FIRST && !(st.year === 'all' && st.types.has('Camp') && t.type === 'Camp');
+  const inSeason = t => !st.season || (st.season === 'camp' ? t.type === 'Camp' : (t.season || 'summer') === st.season && t.type !== 'Camp');
+  const visible = t => inYear(t) && !early(t) && inSeason(t) && (st.showAll || t.status === 'held') && (!st.types.size || st.types.has(t.type))
     && (!st.grade || (t.grade && (t.grade.physical || '').includes(st.grade))) && (!st.pt || t.parent_tot) && (!st.gps || t.tracks.length)
     && (!st.q || (t.name + ' ' + (t.organizer || '') + ' ' + (t.place ? t.place.name : '') + ' ' + t.reports.map(r => r.title).join(' ')).toLowerCase().includes(st.q));
 
@@ -87,9 +95,10 @@
       (nph ? ` · <b>${nph}</b> photo${nph === 1 ? '' : 's'}` : '');
   }
   function renderFilters() {
-    const present = [...new Set(trips.filter(inYear).map(t => t.type))];
+    const present = [...new Set(trips.filter(t => inYear(t) && inSeason(t)).map(t => t.type))];
     const order = Object.keys(TYPES).filter(k => present.includes(k));
-    $('#filters').innerHTML = `<div class="chips">${order.map(k => `<button class="chip${st.types.has(k) ? ' on' : ''}" data-type="${k}"><i style="background:${TYPES[k]}"></i>${k}</button>`).join('')}</div>
+    $('#filters').innerHTML = `<div class="seg" role="group" aria-label="Season">${[['', 'All seasons'], ['summer', 'Summer'], ['winter', 'Winter'], ['camp', 'Hiking camps']].map(([k, v]) => `<button class="${st.season === k ? 'on' : ''}" data-season="${k}">${v}</button>`).join('')}</div>
+      <div class="chips">${order.map(k => `<button class="chip${st.types.has(k) ? ' on' : ''}" data-type="${k}"><i style="background:${TYPES[k]}"></i>${k}</button>`).join('')}</div>
       <select id="fGrade" aria-label="Effort"><option value="">Any effort</option>${Object.entries(PHYS).map(([k, v]) => `<option value="${k}"${st.grade === k ? ' selected' : ''}>${k}: ${v}</option>`).join('')}</select>
       <label class="tick"><input type="checkbox" id="fPT"${st.pt ? ' checked' : ''}> Parent &amp; Tot</label>
       <label class="tick"><input type="checkbox" id="fGps"${st.gps ? ' checked' : ''}> With GPS track</label>
@@ -97,6 +106,10 @@
       <input type="search" id="fQ" placeholder="Search trips, places, organizers" value="${esc(st.q)}">`;
     $('#filters').querySelectorAll('[data-type]').forEach(b => b.onclick = () => { st.types.has(b.dataset.type) ? st.types.delete(b.dataset.type) : st.types.add(b.dataset.type); refresh(); });
     $('#fGrade').onchange = e => { st.grade = e.target.value; refresh(); };
+    $('#filters').querySelectorAll('[data-season]').forEach(b => b.onclick = () => {
+      st.season = b.dataset.season;
+      if (st.season === 'camp') { st.types = new Set(['Camp']); } else if (st.types.has('Camp') && st.types.size === 1) st.types.clear();
+      refresh(); });
     $('#fPT').onchange = e => { st.pt = e.target.checked; refresh(); };
     $('#fAll').onchange = e => { st.showAll = e.target.checked; refresh(); };
     $('#fGps').onchange = e => { st.gps = e.target.checked; refresh(); };
@@ -229,7 +242,7 @@
         <div class="muted">${r.url ? `<a href="${esc(r.url)}#page=${r.page}" target="_blank" rel="noopener">${where}</a>` : where}${stats ? ' · ' + stats : ''}</div>${ppl}</div>`;
     }).join('');
     return `<div class="trip${st.trip === t.id ? ' sel' : ''}" id="trip-${esc(t.id)}">
-      <div class="trip-h"><span class="dot" style="background:${TYPES[t.type] || TYPES.Other}"></span><b>${when(t)}</b> · ${esc(t.type)}${t.grade ? ` · <span class="grade" title="${esc(g)}">${esc(t.grade.raw)}</span>` : ''} ${status}${t.parent_tot ? '<span class="chip pt">Parent &amp; Tot</span>' : ''}</div>
+      <div class="trip-h"><span class="dot" style="background:${TYPES[t.type] || TYPES.Other}"></span><b>${when(t)}</b> · ${esc(t.type)}${t.grade ? ` · <span class="grade" title="${esc(g)}">${esc(t.grade.raw)}</span>` : ''} ${status}${t.parent_tot ? '<span class="chip pt">Parent &amp; Tot</span>' : ''}${t.ates ? `<span class="chip ates ates-${t.ates.toLowerCase()}" title="Avalanche terrain (ATES): ${esc(ATES[t.ates] || '')}">Avalanche terrain: ${esc(t.ates)}</span>` : ''}${t.season === 'winter' ? '<span class="chip win">Winter</span>' : ''}</div>
       <div class="trip-n">${esc(t.name)}</div>
       <div class="muted small">${[t.organizer ? 'Organizer: ' + esc(t.organizer) : '', t.participants_count != null ? `${t.participants_count} on trip${t.non_members ? ` (${t.non_members} non-member${t.non_members > 1 ? 's' : ''})` : ''}` : '', g ? esc(g) : ''].filter(Boolean).join(' · ')}</div>
       ${t.notes && !/^see note$/i.test(t.notes) ? `<div class="muted small">“${esc(t.notes)}”</div>` : ''}${reps}${trackLine(t)}${photoStrip(t)}

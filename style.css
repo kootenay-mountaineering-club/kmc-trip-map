@@ -119,3 +119,13 @@ button.primary { background: var(--accent); color: #fff; border-color: var(--acc
 .bar.up > div { height: 100%; width: 0; background: var(--accent); transition: width .2s; }
 #panel input[type=file] { font: inherit; margin-top: 4px; width: 100%; }
 details summary { cursor: pointer; color: var(--ink2); }
+
+/* seasons, avalanche terrain */
+.seg { display: inline-flex; border: 1px solid var(--line); border-radius: 99px; overflow: hidden; }
+.seg button { border: 0; border-radius: 0; padding: 3px 11px; font-size: 13px; background: var(--surface); }
+.seg button + button { border-left: 1px solid var(--line); }
+.seg button.on { background: var(--ink); color: var(--bg); }
+.chip.ates-simple { background: color-mix(in srgb, #2e9e4f 16%, transparent); color: #2e7d3f; }
+.chip.ates-challenging { background: color-mix(in srgb, #2a6fd6 16%, transparent); color: #2a5fb6; }
+.chip.ates-complex { background: #222; color: #fff; }
+.chip.win { background: color-mix(in srgb, #4c9bd3 16%, transparent); color: #2f7bb3; }
