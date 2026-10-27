@@ -1,0 +1,2105 @@
+{
+"airy-mountain": {
+"name": "Airy Mountain",
+"aliases": [
+"airy mountain"
+],
+"how": "bc:Airy Mountain",
+"lat": 49.53972,
+"lon": -117.84583,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Airy Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"antenna-trail-montrose": {
+"name": "Antenna Trail (Montrose)",
+"aliases": [
+"antenna trail",
+"antenna trail montrose",
+"montrose antenna trail"
+],
+"how": "osm:Antenna Trail, Montrose",
+"lat": 49.07708,
+"lon": -117.6035,
+"source": "OpenStreetMap",
+"feature": "highway/path",
+"official": "Antenna Trail",
+"precision": "place",
+"alternatives": 0
+},
+"pulpit-rock": {
+"name": "Pulpit Rock",
+"aliases": [
+"arishenkoffs bench dedication pulpit rock",
+"lyons bluff pulpit rock loop",
+"pulpit rock lyons bluff traverse"
+],
+"how": "osm:Pulpit Rock || osm:Pulpit Rock Trail",
+"lat": 49.50152,
+"lon": -117.31085,
+"source": "OpenStreetMap",
+"feature": "tourism/viewpoint",
+"official": "Pulpit Rock",
+"precision": "place",
+"alternatives": 0
+},
+"arlington-peak-mt-ruppel": {
+"name": "Arlington Peak & Mt Ruppel",
+"aliases": [
+"arlington ruppel mts"
+],
+"how": "bc:Arlington Peak",
+"lat": 49.76861,
+"lon": -117.30528,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Arlington Peak",
+"precision": "place",
+"alternatives": 0
+},
+"badger-rail-trail-nelson": {
+"name": "Badger / Rail Trail (Nelson)",
+"aliases": [
+"badger raccoon",
+"badger rail trail nelson",
+"rail badger trail nelson"
+],
+"how": "osm:Great Northern Rail Trail, Nelson || town:Nelson",
+"lat": 49.49333,
+"lon": -117.29583,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Nelson",
+"precision": "town",
+"alternatives": 0
+},
+"beattie-peak-white-queen-loop": {
+"name": "Beattie Peak - White Queen loop",
+"aliases": [
+"beattie white queen loop",
+"beattie white queen loop larch photography hike",
+"beattie whitequeen loop"
+],
+"how": "bc:Mount Beattie",
+"lat": 49.47278,
+"lon": -117.15306,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Beattie",
+"precision": "place",
+"alternatives": 0
+},
+"better-than-nothing-crag-rossland": {
+"name": "Better Than Nothing crag (Rossland)",
+"aliases": [
+"better than nothing rossland"
+],
+"how": "town:Rossland",
+"lat": 49.08034,
+"lon": -117.80164,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Rossland",
+"precision": "town",
+"alternatives": 0
+},
+"smallwood-bigwood-trails": {
+"name": "Smallwood / Bigwood trails",
+"aliases": [
+"bigwood crowsnest antler smallwood trail loop beasely",
+"smallwod lookout nelson",
+"smallwood lookout"
+],
+"how": "osm:Smallwood, Nelson || town:Nelson",
+"lat": 49.49333,
+"lon": -117.29583,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Nelson",
+"precision": "town",
+"alternatives": 0
+},
+"bonnington-traverse": {
+"name": "Bonnington Traverse",
+"aliases": [
+"bonnington traverse",
+"bonnington traverse east",
+"bonnington traverse east 2 days",
+"east bonnington traverse 7 summits"
+],
+"how": "bc:Bonnington Range",
+"lat": 49.23319,
+"lon": -117.45111,
+"source": "BC Geographical Names",
+"feature": "Range (2)",
+"official": "Bonnington Range",
+"precision": "place",
+"alternatives": 0
+},
+"west-bonnington-traverse": {
+"name": "West Bonnington Traverse",
+"aliases": [
+"west bonnington traverse grassy siwash copper"
+],
+"how": "bc:Grassy Mountain",
+"lat": 49.2975,
+"lon": -117.48306,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Grassy Mountain",
+"precision": "place",
+"alternatives": 1
+},
+"boomerang-mountain": {
+"name": "Boomerang Mountain",
+"aliases": [
+"boomerang mountain"
+],
+"how": "bc:Boomerang Mountain",
+"lat": 49.78639,
+"lon": -117.24278,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Boomerang Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"brilliant-overlook": {
+"name": "Brilliant Overlook",
+"aliases": [
+"brillant overlook",
+"brilliant overlook",
+"brilliant overlook loop"
+],
+"how": "osm:Brilliant Overlook",
+"lat": 49.32533,
+"lon": -117.60804,
+"source": "OpenStreetMap",
+"feature": "tourism/viewpoint",
+"official": "Brilliant Overlook",
+"precision": "place",
+"alternatives": 0
+},
+"cabin-and-midday-peaks": {
+"name": "Cabin and Midday Peaks",
+"aliases": [
+"cabin and midday peaks"
+],
+"how": "bc:Midday Peak",
+"lat": 49.31333,
+"lon": -117.32639,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Midday Peak",
+"precision": "place",
+"alternatives": 0
+},
+"cai-creek": {
+"name": "Cai Creek",
+"aliases": [
+"cai creek lieutenant dan"
+],
+"how": "bc:Cai Creek",
+"lat": 49.26278,
+"lon": -117.64028,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Cai Creek",
+"precision": "place",
+"alternatives": 0
+},
+"castlegar-crags": {
+"name": "Castlegar crags",
+"aliases": [
+"castlegar",
+"crag climbing",
+"crag day",
+"local crag tbd",
+"location and time tbd",
+"location tbd"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"castlegar-to-grand-forks-ride": {
+"name": "Castlegar to Grand Forks ride",
+"aliases": [
+"castlegar to grand forks overnight"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"cedar-trail-to-eagles-nest-cabin": {
+"name": "Cedar trail to Eagles Nest cabin",
+"aliases": [
+"cedar trail to eagles nest cabin and back"
+],
+"how": "none"
+},
+"cemetery-graveyard-trails-nelson": {
+"name": "Cemetery / Graveyard trails (Nelson)",
+"aliases": [
+"cemetery trails nelson",
+"graveyard trails"
+],
+"how": "osm:Nelson Memorial Park || town:Nelson",
+"lat": 49.49333,
+"lon": -117.29583,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Nelson",
+"precision": "town",
+"alternatives": 0
+},
+"champion-lakes": {
+"name": "Champion Lakes",
+"aliases": [
+"champion lakes provincial park"
+],
+"how": "bc:Champion Lakes",
+"lat": 49.185,
+"lon": -117.61333,
+"source": "BC Geographical Names",
+"feature": "Lakes",
+"official": "Champion Lakes",
+"precision": "place",
+"alternatives": 0
+},
+"chickadee-wall-waterline-crags": {
+"name": "Chickadee Wall / Waterline crags",
+"aliases": [
+"chickadee wall waterline",
+"waterline castlegar",
+"waterline cragging"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"college-creek-peaks": {
+"name": "College Creek peaks",
+"aliases": [
+"college creek peaks",
+"collge creek peaks 1987m and 2045m"
+],
+"how": "osm:College Creek"
+},
+"columbia-river-paddle": {
+"name": "Columbia River paddle",
+"aliases": [
+"columbia river"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"columbia-river-trail": {
+"name": "Columbia River Trail",
+"aliases": [
+"columbia river trail"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"columbia-western-rail-trail": {
+"name": "Columbia & Western Rail Trail",
+"aliases": [
+"columbia western rail trail"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"mt-conner": {
+"name": "Mt Conner",
+"aliases": [
+"conner mountain",
+"mt conner"
+],
+"how": "bc:Mount Connor",
+"lat": 49.40222,
+"lon": -117.41444,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Connor",
+"precision": "place",
+"alternatives": 0
+},
+"mt-brennan": {
+"name": "Mt Brennan",
+"aliases": [
+"continuation of mt brennan trip",
+"mt brennan",
+"lyle lakes mt brennan",
+"white queen mt brennan"
+],
+"how": "bc:Mount Brennan",
+"lat": 50.08528,
+"lon": -117.12306,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Brennan",
+"precision": "place",
+"alternatives": 0
+},
+"copper-mountain": {
+"name": "Copper Mountain",
+"aliases": [
+"copper mountain"
+],
+"how": "bc:Copper Mountain",
+"lat": 49.39417,
+"lon": -117.37806,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Copper Mountain",
+"precision": "place",
+"alternatives": 1
+},
+"cornice-ridge-kootenay-pass": {
+"name": "Cornice Ridge (Kootenay Pass)",
+"aliases": [
+"cornice ridge kootenay pass",
+"kootenay pass the crags"
+],
+"how": "osm:Kootenay Pass",
+"lat": 49.05868,
+"lon": -117.04042,
+"source": "OpenStreetMap",
+"feature": "mountain_pass/yes",
+"official": "Kootenay Pass",
+"precision": "place",
+"alternatives": 0
+},
+"crawford-peninsula": {
+"name": "Crawford Peninsula",
+"aliases": [
+"crawford peninsula east side trail"
+],
+"how": "town:Crawford Bay",
+"lat": 49.68188,
+"lon": -116.82515,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Crawford Bay",
+"precision": "town",
+"alternatives": 0
+},
+"creston-wetlands": {
+"name": "Creston Wetlands",
+"aliases": [
+"creston wetlands"
+],
+"how": "osm:Creston Valley Wildlife Management Area",
+"lat": 49.18886,
+"lon": -116.63767,
+"source": "OpenStreetMap",
+"feature": "leisure/nature_reserve",
+"official": "Creston Valley Wildlife Management Area",
+"precision": "place",
+"alternatives": 0
+},
+"davis-creek-old-growth": {
+"name": "Davis Creek old growth",
+"aliases": [
+"davis creek old growth trail"
+],
+"how": "bc:Davis Creek",
+"lat": 50.1425,
+"lon": -116.9475,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Davis Creek",
+"precision": "place",
+"alternatives": 1
+},
+"deer-park-mountain": {
+"name": "Deer Park Mountain",
+"aliases": [
+"deer park",
+"deer park mountain"
+],
+"how": "bc:Deer Park Mountain",
+"lat": 49.445,
+"lon": -118.06194,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Deer Park Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"deer-point-trail": {
+"name": "Deer Point trail",
+"aliases": [
+"deer point trail"
+],
+"how": "osm:Deer Point Trail",
+"lat": 49.16362,
+"lon": -118.26139,
+"source": "OpenStreetMap",
+"feature": "highway/path",
+"official": "Deer Point Trail",
+"precision": "place",
+"alternatives": 0
+},
+"delaurentiis-bluffs": {
+"name": "DeLaurentiis Bluffs",
+"aliases": [
+"delaurentiis bluffs lookout",
+"delaurentis bluffs"
+],
+"how": "osm:DeLaurentiis Bluffs",
+"lat": 49.19052,
+"lon": -117.2588,
+"source": "OpenStreetMap",
+"feature": "tourism/viewpoint",
+"official": "Delaurentiis Bluffs",
+"precision": "place",
+"alternatives": 0
+},
+"dennis-basin": {
+"name": "Dennis Basin",
+"aliases": [
+"dennis basin",
+"dennis creek"
+],
+"how": "bc:Dennis Creek",
+"lat": 50.03556,
+"lon": -117.39472,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Dennis Creek",
+"precision": "place",
+"alternatives": 0
+},
+"dove-hill": {
+"name": "Dove Hill",
+"aliases": [
+"dove hill"
+],
+"how": "osm:Dove Hill",
+"lat": 49.3108,
+"lon": -117.62405,
+"source": "OpenStreetMap",
+"feature": "highway/track",
+"official": "Dove Hill",
+"precision": "place",
+"alternatives": 1
+},
+"drinnon-slabs": {
+"name": "Drinnon Slabs",
+"aliases": [
+"drinnon slabs"
+],
+"how": "bc:Drinnon Lake",
+"lat": 49.79194,
+"lon": -117.72806,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Drinnon Lake",
+"precision": "place",
+"alternatives": 0
+},
+"elephant-mountain": {
+"name": "Elephant Mountain",
+"aliases": [
+"elephant mountain traverse"
+],
+"how": "osm:Elephant Mountain || osm:Elephant Mountain Provincial Park || bc:Elephant Mountain Park"
+},
+"emerald-lake": {
+"name": "Emerald Lake",
+"aliases": [
+"emerald lake"
+],
+"how": "none"
+},
+"mt-esmeralda": {
+"name": "Mt Esmeralda",
+"aliases": [
+"esmeralda peak",
+"mt esmerelda cond kokanee glacier"
+],
+"how": "bc:Esmeralda Peak",
+"lat": 49.7475,
+"lon": -117.15111,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Esmeralda Peak",
+"precision": "place",
+"alternatives": 0
+},
+"evans-creek": {
+"name": "Evans Creek",
+"aliases": [
+"evans creek"
+],
+"how": "bc:Evans Creek",
+"lat": 49.82611,
+"lon": -117.48028,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Evans Creek",
+"precision": "place",
+"alternatives": 1
+},
+"evening-ridge": {
+"name": "Evening Ridge",
+"aliases": [
+"evening ridge"
+],
+"how": "bc:Evening Ridge",
+"lat": 49.45111,
+"lon": -117.19944,
+"source": "BC Geographical Names",
+"feature": "Ridge (2)",
+"official": "Evening Ridge",
+"precision": "place",
+"alternatives": 0
+},
+"faith-hope-and-charity": {
+"name": "Faith, Hope and Charity",
+"aliases": [
+"faith hope and charity all 3",
+"faith mtn"
+],
+"how": "osm:Faith Peak || osm:Mount Faith",
+"lat": 49.36505,
+"lon": -118.25352,
+"source": "OpenStreetMap",
+"feature": "natural/peak",
+"official": "Mount Faith",
+"precision": "place",
+"alternatives": 0
+},
+"fort-sheppard": {
+"name": "Fort Sheppard",
+"aliases": [
+"fort sheppard"
+],
+"how": "none"
+},
+"giegerich-and-nansen": {
+"name": "Giegerich and Nansen",
+"aliases": [
+"giegerich and nansen mountains",
+"mt gingrich"
+],
+"how": "bc:Mount Giegerich",
+"lat": 49.75639,
+"lon": -117.22056,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Giegerich",
+"precision": "place",
+"alternatives": 0
+},
+"gilpin-grasslands": {
+"name": "Gilpin Grasslands",
+"aliases": [
+"gilpin grassland",
+"gilpin grasslands provincial park"
+],
+"how": "osm:Gilpin Grasslands Provincial Park",
+"lat": 49.01979,
+"lon": -118.30168,
+"source": "OpenStreetMap",
+"feature": "leisure/nature_reserve",
+"official": "Gilpin Grasslands Provincial Park",
+"precision": "place",
+"alternatives": 0
+},
+"mt-gimli": {
+"name": "Mt Gimli",
+"aliases": [
+"gimli",
+"mt gimli"
+],
+"how": "bc:Gimli Peak",
+"lat": 49.76611,
+"lon": -117.64694,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Gimli Peak",
+"precision": "place",
+"alternatives": 0
+},
+"glade-tarn": {
+"name": "Glade Tarn",
+"aliases": [
+"glade tarn"
+],
+"how": "none"
+},
+"goat-mountain-grand-forks": {
+"name": "Goat Mountain (Grand Forks)",
+"aliases": [
+"goat mountain grand forks"
+],
+"how": "bc:Goat Mountain~grand forks",
+"lat": 49.07639,
+"lon": -118.48528,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Goat Mountain",
+"precision": "place",
+"alternatives": 3
+},
+"grand-forks-rides": {
+"name": "Grand Forks rides",
+"aliases": [
+"grand forks loop",
+"north fork granby loop grand forks",
+"kettle river 50 km ride"
+],
+"how": "town:Grand Forks",
+"lat": 49.03111,
+"lon": -118.43917,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Grand Forks",
+"precision": "town",
+"alternatives": 0
+},
+"grassy-mountain": {
+"name": "Grassy Mountain",
+"aliases": [
+"grassy mountain"
+],
+"how": "bc:Grassy Mountain",
+"lat": 49.2975,
+"lon": -117.48306,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Grassy Mountain",
+"precision": "place",
+"alternatives": 1
+},
+"grays-peak": {
+"name": "Grays Peak",
+"aliases": [
+"grays peak",
+"mt gray"
+],
+"how": "bc:Grays Peak",
+"lat": 49.72667,
+"lon": -117.12444,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Grays Peak",
+"precision": "place",
+"alternatives": 0
+},
+"gwillim-lakes": {
+"name": "Gwillim Lakes",
+"aliases": [
+"gwilliam lakes",
+"gwillim lakes"
+],
+"how": "bc:Gwillim Lakes",
+"lat": 49.81361,
+"lon": -117.74083,
+"source": "BC Geographical Names",
+"feature": "Lakes",
+"official": "Gwillim Lakes",
+"precision": "place",
+"alternatives": 0
+},
+"haiseldean-lake": {
+"name": "Haiseldean Lake",
+"aliases": [
+"haiseldean lake"
+],
+"how": "bc:Haiseldean Lake",
+"lat": 49.67472,
+"lon": -117.03694,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Haiseldean Lake",
+"precision": "place",
+"alternatives": 0
+},
+"half-dome-ymir-peak": {
+"name": "Half Dome & Ymir Peak",
+"aliases": [
+"half dome",
+"half dome and ymir peak traverse"
+],
+"how": "bc:Ymir Mountain",
+"lat": 49.4275,
+"lon": -117.11083,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Ymir Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"slocan-lake-paddles": {
+"name": "Slocan Lake paddles",
+"aliases": [
+"hills to slocan city",
+"multi day paddle",
+"finish paddle",
+"slocan lake",
+"slocan lake paddle overnight",
+"silverton to slocan"
+],
+"how": "bc:Slocan Lake",
+"lat": 49.8875,
+"lon": -117.42361,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Slocan Lake",
+"precision": "place",
+"alternatives": 0
+},
+"whitewater-summit-trail-hummingbird-prospector-sherpa": {
+"name": "Whitewater Summit Trail (Hummingbird, Prospector, Sherpa)",
+"aliases": [
+"hummingbird lodge white queen raven chair hummingbird lodge loop",
+"prospector and hummingbird peaks",
+"prospector hummingbird sherpa peaks",
+"summit trail",
+"summit trail hummingbird prospector and sherpa"
+],
+"how": "osm:Whitewater Ski Resort || osm:Whitewater Ski",
+"lat": 49.44115,
+"lon": -117.16291,
+"source": "OpenStreetMap",
+"feature": "landuse/winter_sports",
+"official": "Whitewater Ski Resort",
+"precision": "place",
+"alternatives": 0
+},
+"inspect-peak-hampshire-mountain": {
+"name": "Inspect Peak & Hampshire Mountain",
+"aliases": [
+"inspect peak and hampshire mountain"
+],
+"how": "bc:Hampshire Mountain",
+"lat": 49.81944,
+"lon": -117.22944,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Hampshire Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"iron-mountain-nevada-mountain": {
+"name": "Iron Mountain - Nevada Mountain",
+"aliases": [
+"iron mt to nevada mt traverse",
+"nevada mountain"
+],
+"how": "bc:Nevada Mountain",
+"lat": 49.11361,
+"lon": -117.18306,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Nevada Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"jess-ridge-rockslide-lake": {
+"name": "Jess Ridge / Rockslide Lake",
+"aliases": [
+"jess ridge rockslide lake trail"
+],
+"how": "bc:Rockslide Lake",
+"lat": 49.55083,
+"lon": -117.52111,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Rockslide Lake",
+"precision": "place",
+"alternatives": 0
+},
+"kelly-beaver-and-stott": {
+"name": "Kelly, Beaver and Stott",
+"aliases": [
+"kelly beaver and stott mountains"
+],
+"how": "bc:Stott Peak",
+"lat": 49.11417,
+"lon": -117.42111,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Stott Peak",
+"precision": "place",
+"alternatives": 0
+},
+"kinnaird-bluffs": {
+"name": "Kinnaird Bluffs",
+"aliases": [
+"kinnaird bluffs"
+],
+"how": "osm:Kinnaird Bluffs || town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"kokanee-creek-park": {
+"name": "Kokanee Creek Park",
+"aliases": [
+"kokanee creek",
+"kokanee creek grassy trail and beach",
+"kokanee creek prov park nelson"
+],
+"how": "bc:Kokanee Creek Park",
+"lat": 49.60889,
+"lon": -117.12361,
+"source": "BC Geographical Names",
+"feature": "Provincial Park",
+"official": "Kokanee Creek Park",
+"precision": "place",
+"alternatives": 0
+},
+"kokanee-creek-canyon": {
+"name": "Kokanee Creek Canyon",
+"aliases": [
+"kokanee creek canyon"
+],
+"how": "bc:Kokanee Creek",
+"lat": 49.59972,
+"lon": -117.12556,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Kokanee Creek",
+"precision": "place",
+"alternatives": 0
+},
+"kokanee-lake": {
+"name": "Kokanee Lake",
+"aliases": [
+"kokanee lake"
+],
+"how": "bc:Kokanee Lake",
+"lat": 49.74778,
+"lon": -117.175,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Kokanee Lake",
+"precision": "place",
+"alternatives": 0
+},
+"kokanee-glacier-cabin": {
+"name": "Kokanee Glacier Cabin",
+"aliases": [
+"kokanee lodge"
+],
+"how": "bc:Kaslo Lake",
+"lat": 49.76833,
+"lon": -117.19528,
+"source": "BC Geographical Names",
+"feature": "Lake",
+"official": "Kaslo Lake",
+"precision": "place",
+"alternatives": 0
+},
+"kokanee-old-growth-cedars": {
+"name": "Kokanee old growth cedars",
+"aliases": [
+"kokanee old growth cedars",
+"kokanee old growth cedars nelson"
+],
+"how": "osm:Kokanee Cedars || bc:Kokanee Creek Park",
+"lat": 49.60889,
+"lon": -117.12361,
+"source": "BC Geographical Names",
+"feature": "Provincial Park",
+"official": "Kokanee Creek Park",
+"precision": "place",
+"alternatives": 0
+},
+"lemon-lookout": {
+"name": "Lemon Lookout",
+"aliases": [
+"lemon lookout"
+],
+"how": "bc:Lemon Creek",
+"lat": 49.69986,
+"lon": -117.48446,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Lemon Creek",
+"precision": "place",
+"alternatives": 1
+},
+"lepsoe-plewman": {
+"name": "Lepsoe & Plewman",
+"aliases": [
+"lepsoe plewman"
+],
+"how": "bc:Mount Lepsoe",
+"lat": 49.17889,
+"lon": -117.89667,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Lepsoe",
+"precision": "place",
+"alternatives": 0
+},
+"lightning-strike": {
+"name": "Lightning Strike",
+"aliases": [
+"lightning strike"
+],
+"how": "osm:Kootenay Pass",
+"lat": 49.05868,
+"lon": -117.04042,
+"source": "OpenStreetMap",
+"feature": "mountain_pass/yes",
+"official": "Kootenay Pass",
+"precision": "place",
+"alternatives": 0
+},
+"lions-head-to-syringa-ride": {
+"name": "Lion's Head to Syringa ride",
+"aliases": [
+"lions head to syringa",
+"syringa towards deer park"
+],
+"how": "bc:Syringa Park",
+"lat": 49.37917,
+"lon": -117.89583,
+"source": "BC Geographical Names",
+"feature": "Provincial Park",
+"official": "Syringa Park",
+"precision": "place",
+"alternatives": 0
+},
+"lost-lake-cabin": {
+"name": "Lost Lake cabin",
+"aliases": [
+"lost lake cabin and traverse on the 28th"
+],
+"how": "none"
+},
+"lost-mountain": {
+"name": "Lost Mountain",
+"aliases": [
+"lost mountain",
+"lost mountain hike",
+"lost mountain to june 13"
+],
+"how": "bc:Lost Mountain",
+"lat": 49.05194,
+"lon": -117.17056,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Lost Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"lower-sentinel-bluffs-castlegar": {
+"name": "Lower Sentinel Bluffs (Castlegar)",
+"aliases": [
+"lower sentinal bluffs castlegar",
+"lower sentinel bluffs castlegar"
+],
+"how": "town:Castlegar",
+"lat": 49.32444,
+"lon": -117.66694,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Castlegar",
+"precision": "town",
+"alternatives": 0
+},
+"lyle-lakes": {
+"name": "Lyle Lakes",
+"aliases": [
+"lyell lakes",
+"lyle lakes"
+],
+"how": "osm:Lyle Lake || osm:Lyle Lakes",
+"lat": 50.04298,
+"lon": -117.11089,
+"source": "OpenStreetMap",
+"feature": "highway/trailhead",
+"official": "Lyle Creek Trailhead",
+"precision": "place",
+"alternatives": 2
+},
+"mckean-lakes-mt-woden": {
+"name": "McKean Lakes & Mt Woden",
+"aliases": [
+"mckean lakes mt woden"
+],
+"how": "bc:Woden Peak",
+"lat": 49.82389,
+"lon": -117.80722,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Woden Peak",
+"precision": "place",
+"alternatives": 0
+},
+"mcphee-waterfall": {
+"name": "McPhee waterfall",
+"aliases": [
+"mcphee waterfall"
+],
+"how": "bc:McPhee Creek",
+"lat": 49.34,
+"lon": -117.59222,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "McPhee Creek",
+"precision": "place",
+"alternatives": 0
+},
+"mel-deanna-trail-castlegar": {
+"name": "Mel Deanna Trail (Castlegar)",
+"aliases": [
+"mel deanna trail",
+"mel deanna trail castlegar"
+],
+"how": "osm:Mel DeAnna Trail",
+"lat": 49.24271,
+"lon": -117.64182,
+"source": "OpenStreetMap",
+"feature": "highway/footway",
+"official": "Mel Deanna Trail",
+"precision": "place",
+"alternatives": 0
+},
+"merry-creek-castlegar": {
+"name": "Merry Creek (Castlegar)",
+"aliases": [
+"merry creek",
+"merry creek castlegar"
+],
+"how": "bc:Merry Creek",
+"lat": 49.30556,
+"lon": -117.655,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Merry Creek",
+"precision": "place",
+"alternatives": 0
+},
+"monica-meadows": {
+"name": "Monica Meadows",
+"aliases": [
+"monica meadows"
+],
+"how": "osm:Monica Meadows",
+"lat": 50.40428,
+"lon": -116.67767,
+"source": "OpenStreetMap",
+"feature": "highway/path",
+"official": "Monica Meadows Trail",
+"precision": "place",
+"alternatives": 1
+},
+"morning-mountain-nelson": {
+"name": "Morning Mountain (Nelson)",
+"aliases": [
+"morning mountain",
+"morning mountain trail nelson",
+"morning mountain trails nelson"
+],
+"how": "bc:Morning Mountain",
+"lat": 49.44833,
+"lon": -117.33306,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Morning Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"mt-robert-smith": {
+"name": "Mt Robert Smith",
+"aliases": [
+"mr robert smith"
+],
+"how": "bc:Mount Robert Smith",
+"lat": 49.775,
+"lon": -117.23,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Robert Smith",
+"precision": "place",
+"alternatives": 0
+},
+"mt-buchanan-lookout": {
+"name": "Mt Buchanan lookout",
+"aliases": [
+"mt buchanon lookout"
+],
+"how": "bc:Mount Buchanan",
+"lat": 49.9375,
+"lon": -116.94722,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Buchanan",
+"precision": "place",
+"alternatives": 0
+},
+"mt-carlyle": {
+"name": "Mt Carlyle",
+"aliases": [
+"mt carlyle"
+],
+"how": "bc:Mount Carlyle",
+"lat": 49.92833,
+"lon": -117.1225,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Carlyle",
+"precision": "place",
+"alternatives": 0
+},
+"drinnon-peak": {
+"name": "Drinnon Peak",
+"aliases": [
+"mt drinnon"
+],
+"how": "bc:Drinnon Peak",
+"lat": 49.78778,
+"lon": -117.71222,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Drinnon Peak",
+"precision": "place",
+"alternatives": 0
+},
+"mt-dundee": {
+"name": "Mt Dundee",
+"aliases": [
+"mt dundee"
+],
+"how": "bc:Mount Dundee",
+"lat": 49.29694,
+"lon": -117.14917,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Dundee",
+"precision": "place",
+"alternatives": 0
+},
+"mt-fennell": {
+"name": "Mt Fennell",
+"aliases": [
+"mt fennell"
+],
+"how": "bc:Mount Fennell",
+"lat": 49.83444,
+"lon": -117.26083,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Fennell",
+"precision": "place",
+"alternatives": 0
+},
+"mt-gladstone": {
+"name": "Mt Gladstone",
+"aliases": [
+"mt gladstone"
+],
+"how": "bc:Mount Gladstone",
+"lat": 49.23583,
+"lon": -118.18528,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Gladstone",
+"precision": "place",
+"alternatives": 0
+},
+"mt-irvine": {
+"name": "Mt Irvine",
+"aliases": [
+"mt irvine"
+],
+"how": "bc:Mount Irvine",
+"lat": 49.54972,
+"lon": -116.94694,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Irvine",
+"precision": "place",
+"alternatives": 0
+},
+"mt-kirkup": {
+"name": "Mt Kirkup",
+"aliases": [
+"mt kirkup"
+],
+"how": "bc:Mount Kirkup",
+"lat": 49.12972,
+"lon": -117.85639,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Kirkup",
+"precision": "place",
+"alternatives": 0
+},
+"mt-lewis": {
+"name": "Mt Lewis",
+"aliases": [
+"mt lewis success"
+],
+"how": "none"
+},
+"mt-mackie": {
+"name": "Mt Mackie",
+"aliases": [
+"mt mackie"
+],
+"how": "bc:Mount Mackie",
+"lat": 49.24583,
+"lon": -117.81694,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Mackie",
+"precision": "place",
+"alternatives": 0
+},
+"mt-plewman": {
+"name": "Mt Plewman",
+"aliases": [
+"mt plewman",
+"mt plewman and cutblock peaks",
+"mt plewman and elgood"
+],
+"how": "bc:Mount Plewman",
+"lat": 49.16167,
+"lon": -117.89444,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Plewman",
+"precision": "place",
+"alternatives": 0
+},
+"mt-reno": {
+"name": "Mt Reno",
+"aliases": [
+"mt reno"
+],
+"how": "bc:Reno Mountain",
+"lat": 49.185,
+"lon": -117.11694,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Reno Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"mt-roberts": {
+"name": "Mt Roberts",
+"aliases": [
+"mt roberts",
+"mt roberts and record"
+],
+"how": "bc:Mount Roberts",
+"lat": 49.08778,
+"lon": -117.86028,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Roberts",
+"precision": "place",
+"alternatives": 0
+},
+"mt-sentinel": {
+"name": "Mt Sentinel",
+"aliases": [
+"mt sentinel"
+],
+"how": "bc:Sentinel Mountain",
+"lat": 49.37889,
+"lon": -117.61611,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Sentinel Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"mt-shields": {
+"name": "Mt Shields",
+"aliases": [
+"mt shields"
+],
+"how": "bc:Mount Shields",
+"lat": 49.34778,
+"lon": -118.01361,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Shields",
+"precision": "place",
+"alternatives": 0
+},
+"mt-vingolf": {
+"name": "Mt Vingolf",
+"aliases": [
+"mt vingolf"
+],
+"how": "bc:Mount Vingolf",
+"lat": 50.04611,
+"lon": -117.57,
+"source": "BC Geographical Names",
+"feature": "Mount",
+"official": "Mount Vingolf",
+"precision": "place",
+"alternatives": 0
+},
+"ymir-mountain": {
+"name": "Ymir Mountain",
+"aliases": [
+"mt ymir",
+"mt ymir traverse"
+],
+"how": "bc:Ymir Mountain",
+"lat": 49.4275,
+"lon": -117.11083,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Ymir Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"nelson-to-salmo-ride": {
+"name": "Nelson to Salmo ride",
+"aliases": [
+"nelson to salmo cycle"
+],
+"how": "town:Nelson",
+"lat": 49.49333,
+"lon": -117.29583,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Nelson",
+"precision": "town",
+"alternatives": 0
+},
+"nelson-to-syringa-ride": {
+"name": "Nelson to Syringa ride",
+"aliases": [
+"nelson to syringa cycle"
+],
+"how": "town:Nelson",
+"lat": 49.49333,
+"lon": -117.29583,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Nelson",
+"precision": "town",
+"alternatives": 0
+},
+"noakes-upper-basin": {
+"name": "Noakes Upper Basin",
+"aliases": [
+"noakes upper basin loop"
+],
+"how": "bc:Noakes Lakes",
+"lat": 49.68306,
+"lon": -117.02278,
+"source": "BC Geographical Names",
+"feature": "Lakes",
+"official": "Noakes Lakes",
+"precision": "place",
+"alternatives": 0
+},
+"norns-creek": {
+"name": "Norns Creek",
+"aliases": [
+"norns tour"
+],
+"how": "bc:Norns Creek",
+"lat": 49.33361,
+"lon": -117.66917,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Norns Creek",
+"precision": "place",
+"alternatives": 0
+},
+"oasis-lookout": {
+"name": "Oasis Lookout",
+"aliases": [
+"oasis lookout"
+],
+"how": "osm:Oasis Lookout || osm:Oasis",
+"lat": 49.13686,
+"lon": -117.7426,
+"source": "OpenStreetMap",
+"feature": "place/hamlet",
+"official": "Oasis",
+"precision": "place",
+"alternatives": 0
+},
+"old-glory": {
+"name": "Old Glory",
+"aliases": [
+"old glory",
+"old glory lookout",
+"old glory lookout canada day"
+],
+"how": "bc:Old Glory Mountain",
+"lat": 49.14972,
+"lon": -117.91222,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Old Glory Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"outlook-john-carter-little-john": {
+"name": "Outlook, John Carter & Little John",
+"aliases": [
+"outlook john carter little john"
+],
+"how": "bc:Outlook Mountain",
+"lat": 49.73194,
+"lon": -117.19583,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Outlook Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"christina-lake-paddle": {
+"name": "Christina Lake paddle",
+"aliases": [
+"overnight kayak christina lake"
+],
+"how": "bc:Christina Lake~christina lake",
+"lat": 49.04291,
+"lon": -118.20946,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Christina Lake",
+"precision": "place",
+"alternatives": 1
+},
+"pilot-bay-pilot-peninsula": {
+"name": "Pilot Bay / Pilot Peninsula",
+"aliases": [
+"overnight to pilot peninsula sawmill cove",
+"pilot bay",
+"pliot bay overnight"
+],
+"how": "bc:Pilot Bay Park",
+"lat": 49.64139,
+"lon": -116.865,
+"source": "BC Geographical Names",
+"feature": "Provincial Park",
+"official": "Pilot Bay Park",
+"precision": "place",
+"alternatives": 0
+},
+"panther-creek": {
+"name": "Panther Creek",
+"aliases": [
+"panther creek"
+],
+"how": "bc:Panther Creek",
+"lat": 49.16694,
+"lon": -117.08778,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Panther Creek",
+"precision": "place",
+"alternatives": 0
+},
+"passmore-to-appledale-ride": {
+"name": "Passmore to Appledale ride",
+"aliases": [
+"passmore to appledale"
+],
+"how": "bc:Passmore",
+"lat": 49.54156,
+"lon": -117.64983,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Passmore",
+"precision": "place",
+"alternatives": 0
+},
+"paulson-trails": {
+"name": "Paulson trails",
+"aliases": [
+"paulson trails"
+],
+"how": "bc:Paulson",
+"lat": 49.19985,
+"lon": -118.1178,
+"source": "BC Geographical Names",
+"feature": "Locality",
+"official": "Paulson",
+"precision": "place",
+"alternatives": 0
+},
+"birdqueen-trail-trail-work": {
+"name": "Birdqueen Trail (trail work)",
+"aliases": [
+"pay it forward trail work"
+],
+"how": "town:Rossland",
+"lat": 49.08034,
+"lon": -117.80164,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Rossland",
+"precision": "town",
+"alternatives": 0
+},
+"pend-oreille": {
+"name": "Pend Oreille",
+"aliases": [
+"pend oreille",
+"pend oreille river"
+],
+"how": "bc:Pend d'Oreille River",
+"lat": 49.00389,
+"lon": -117.61833,
+"source": "BC Geographical Names",
+"feature": "River",
+"official": "Pend-d'Oreille River",
+"precision": "place",
+"alternatives": 0
+},
+"pontiac-peak": {
+"name": "Pontiac Peak",
+"aliases": [
+"pontiac peak"
+],
+"how": "bc:Pontiac Peak",
+"lat": 49.7725,
+"lon": -117.08056,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Pontiac Peak",
+"precision": "place",
+"alternatives": 0
+},
+"rialto-waterfalls": {
+"name": "Rialto waterfalls",
+"aliases": [
+"rialto waterfalls"
+],
+"how": "bc:Rialto Creek",
+"lat": 49.34167,
+"lon": -117.75472,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Rialto Creek",
+"precision": "place",
+"alternatives": 0
+},
+"riondel": {
+"name": "Riondel",
+"aliases": [
+"riondel area",
+"riondel historical tour waterline hike with terry turner",
+"riondel historical walk"
+],
+"how": "town:Riondel",
+"lat": 49.7635,
+"lon": -116.85644,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Riondel",
+"precision": "town",
+"alternatives": 0
+},
+"robson-ramble": {
+"name": "Robson Ramble",
+"aliases": [
+"robson ramble"
+],
+"how": "osm:Robson, British Columbia",
+"lat": 49.33348,
+"lon": -117.67567,
+"source": "OpenStreetMap",
+"feature": "amenity/post_office",
+"official": "Robson",
+"precision": "place",
+"alternatives": 1
+},
+"slocan-valley-rail-trail": {
+"name": "Slocan Valley Rail Trail",
+"aliases": [
+"s slocan to springer creek",
+"slocan valley rail trail",
+"slocan pool to glade"
+],
+"how": "osm:Slocan Valley Rail Trail || bc:Slocan Park",
+"lat": 49.45703,
+"lon": -117.5239,
+"source": "OpenStreetMap",
+"feature": "highway/cycleway",
+"official": "Slocan Valley Rail Trail",
+"precision": "place",
+"alternatives": 4
+},
+"salmo-priest-loop": {
+"name": "Salmo-Priest loop",
+"aliases": [
+"salmo priest loop"
+],
+"how": "osm:Salmo-Priest Wilderness || osm:Salmo Mountain",
+"lat": 48.97237,
+"lon": -117.1024,
+"source": "OpenStreetMap",
+"feature": "natural/peak",
+"official": "Salmo Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"salmo-ski-hill": {
+"name": "Salmo ski hill",
+"aliases": [
+"salmo ski hill"
+],
+"how": "town:Salmo",
+"lat": 49.19333,
+"lon": -117.27861,
+"source": "BC Geographical Names",
+"feature": "Village (1)",
+"official": "Salmo",
+"precision": "town",
+"alternatives": 0
+},
+"salmo-to-seven-mile-dam-ride": {
+"name": "Salmo to Seven Mile Dam ride",
+"aliases": [
+"salmo to seven mile dam",
+"seven mile dam",
+"salmo to ymir and beyond gravel bike"
+],
+"how": "town:Salmo",
+"lat": 49.19333,
+"lon": -117.27861,
+"source": "BC Geographical Names",
+"feature": "Village (1)",
+"official": "Salmo",
+"precision": "town",
+"alternatives": 0
+},
+"sapphire-lakes": {
+"name": "Sapphire Lakes",
+"aliases": [
+"sapphire lakes",
+"sapphire lakes kokanee glacier park"
+],
+"how": "bc:Sapphire Lakes",
+"lat": 49.75167,
+"lon": -117.2075,
+"source": "BC Geographical Names",
+"feature": "Lakes",
+"official": "Sapphire Lakes",
+"precision": "place",
+"alternatives": 0
+},
+"scotchman-peak-idaho": {
+"name": "Scotchman Peak (Idaho)",
+"aliases": [
+"scotchman peak north idaho"
+],
+"how": "osm:Scotchman Peak, Idaho",
+"lat": 48.18882,
+"lon": -116.08184,
+"source": "OpenStreetMap",
+"feature": "natural/peak",
+"official": "Scotchman Peak",
+"precision": "place",
+"alternatives": 0
+},
+"selkirk-college-trails-castlegar": {
+"name": "Selkirk College trails (Castlegar)",
+"aliases": [
+"selkirk college trails castlegar"
+],
+"how": "osm:Selkirk College, Castlegar",
+"lat": 49.30722,
+"lon": -117.6473,
+"source": "OpenStreetMap",
+"feature": "amenity/college",
+"official": "Selkirk College (Castlegar Campus)",
+"precision": "place",
+"alternatives": 0
+},
+"siwash-mountain": {
+"name": "Siwash Mountain",
+"aliases": [
+"siwash",
+"siwash mountain"
+],
+"how": "bc:Siwash Mountain",
+"lat": 49.35667,
+"lon": -117.45083,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Siwash Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"slocan-bluffs": {
+"name": "Slocan Bluffs",
+"aliases": [
+"slocan bluffs"
+],
+"how": "town:Slocan",
+"lat": 49.76778,
+"lon": -117.46611,
+"source": "BC Geographical Names",
+"feature": "Village (1)",
+"official": "Slocan",
+"precision": "town",
+"alternatives": 0
+},
+"slocan-pools": {
+"name": "Slocan Pools",
+"aliases": [
+"slocan pools",
+"slocan pools junction"
+],
+"how": "osm:Slocan Pools || bc:Slocan Park",
+"lat": 49.51721,
+"lon": -117.62539,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Slocan Park",
+"precision": "place",
+"alternatives": 0
+},
+"smelterville-crag": {
+"name": "Smelterville crag",
+"aliases": [
+"smelterville crag"
+],
+"how": "town:Trail",
+"lat": 49.09444,
+"lon": -117.70917,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Trail",
+"precision": "town",
+"alternatives": 0
+},
+"sproule-creek-nelson": {
+"name": "Sproule Creek (Nelson)",
+"aliases": [
+"sproule creek",
+"sproule creek nelson"
+],
+"how": "bc:Sproule Creek",
+"lat": 49.48319,
+"lon": -117.38445,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Sproule Creek",
+"precision": "place",
+"alternatives": 0
+},
+"sunnyside-crag-nelson": {
+"name": "Sunnyside crag (Nelson)",
+"aliases": [
+"sunnyside crag nelson"
+],
+"how": "town:Nelson",
+"lat": 49.49333,
+"lon": -117.29583,
+"source": "BC Geographical Names",
+"feature": "City",
+"official": "Nelson",
+"precision": "town",
+"alternatives": 0
+},
+"syringa-yellow-pines-trail": {
+"name": "Syringa Yellow Pines Trail",
+"aliases": [
+"syringa yellow pines trail",
+"yellow pine"
+],
+"how": "bc:Syringa Park",
+"lat": 49.37917,
+"lon": -117.89583,
+"source": "BC Geographical Names",
+"feature": "Provincial Park",
+"official": "Syringa Park",
+"precision": "place",
+"alternatives": 0
+},
+"taghum-to-corra-linn-dam-paddle": {
+"name": "Taghum to Corra Linn Dam paddle",
+"aliases": [
+"taghum to corra linn dam"
+],
+"how": "osm:Corra Linn Dam",
+"lat": 49.46736,
+"lon": -117.46678,
+"source": "OpenStreetMap",
+"feature": "waterway/dam",
+"official": "Corra Linn Dam",
+"precision": "place",
+"alternatives": 0
+},
+"texas-peak": {
+"name": "Texas Peak",
+"aliases": [
+"texas peak"
+],
+"how": "bc:Texas Peak",
+"lat": 49.985,
+"lon": -117.13611,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Texas Peak",
+"precision": "place",
+"alternatives": 0
+},
+"thanksgiving-mountain": {
+"name": "Thanksgiving Mountain",
+"aliases": [
+"thanksgiving mt gray creek pass"
+],
+"how": "osm:Thanksgiving Mountain",
+"lat": 49.59045,
+"lon": -116.68236,
+"source": "OpenStreetMap",
+"feature": "natural/peak",
+"official": "Thanksgiving Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"the-monks": {
+"name": "The Monks",
+"aliases": [
+"the monks",
+"the monks peaks"
+],
+"how": "osm:The Monks"
+},
+"toad-mountain": {
+"name": "Toad Mountain",
+"aliases": [
+"toad mountain via giveout creek"
+],
+"how": "bc:Toad Mountain",
+"lat": 49.41278,
+"lon": -117.32861,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "Toad Mountain",
+"precision": "place",
+"alternatives": 0
+},
+"trail-to-glade-ride": {
+"name": "Trail to Glade ride",
+"aliases": [
+"trail to glade"
+],
+"how": "town:Glade",
+"lat": 49.40822,
+"lon": -117.54148,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Glade",
+"precision": "town",
+"alternatives": 0
+},
+"trapper-creek-christina-lake": {
+"name": "Trapper Creek (Christina Lake)",
+"aliases": [
+"trapper creek christina lake"
+],
+"how": "bc:Trapper Creek~christina lake",
+"lat": 49.16639,
+"lon": -118.27056,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Trapper Creek",
+"precision": "place",
+"alternatives": 1
+},
+"twin-peaks": {
+"name": "Twin Peaks",
+"aliases": [
+"twin peaks"
+],
+"how": "none"
+},
+"unacanuma-trail": {
+"name": "Unacanuma trail",
+"aliases": [
+"una canuma",
+"unacanuma in reverse",
+"unacanuma nelson",
+"unacanuma nelson 2",
+"unacanuma trail"
+],
+"how": "osm:Unacanuma || osm:Una Canuma",
+"lat": 49.50591,
+"lon": -117.2422,
+"source": "OpenStreetMap",
+"feature": "highway/path",
+"official": "Una Canuma",
+"precision": "place",
+"alternatives": 0
+},
+"waldie-wulf-lake": {
+"name": "Waldie (Wulf) Lake",
+"aliases": [
+"waldie wulf lake"
+],
+"how": "osm:Wulf Lake || bc:Wulf Creek",
+"lat": 49.14417,
+"lon": -117.13722,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Wulf Creek",
+"precision": "place",
+"alternatives": 0
+},
+"wards-ferry-rover-creek": {
+"name": "Wards Ferry - Rover Creek",
+"aliases": [
+"wards ferry rover creek to glade"
+],
+"how": "bc:Rover Creek",
+"lat": 49.44986,
+"lon": -117.51778,
+"source": "BC Geographical Names",
+"feature": "Creek (1)",
+"official": "Rover Creek",
+"precision": "place",
+"alternatives": 0
+},
+"warfield-casino-loop": {
+"name": "Warfield Casino loop",
+"aliases": [
+"warfield casino loop"
+],
+"how": "town:Warfield",
+"lat": 49.09417,
+"lon": -117.74917,
+"source": "BC Geographical Names",
+"feature": "Village (1)",
+"official": "Warfield",
+"precision": "town",
+"alternatives": 0
+},
+"white-queen": {
+"name": "White Queen",
+"aliases": [
+"white queen"
+],
+"how": "bc:White Queen",
+"lat": 49.45806,
+"lon": -117.14667,
+"source": "BC Geographical Names",
+"feature": "Mountain",
+"official": "White Queen",
+"precision": "place",
+"alternatives": 0
+},
+"wolf-peak": {
+"name": "Wolf Peak",
+"aliases": [
+"wolf peak",
+"wolf peak via lost creek"
+],
+"how": "bc:Wolf Peak",
+"lat": 49.10444,
+"lon": -117.04583,
+"source": "BC Geographical Names",
+"feature": "Peak (2)",
+"official": "Wolf Peak",
+"precision": "place",
+"alternatives": 0
+},
+"ymir-historical-walk": {
+"name": "Ymir historical walk",
+"aliases": [
+"ymir",
+"ymir historical"
+],
+"how": "town:Ymir",
+"lat": 49.28319,
+"lon": -117.21777,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Ymir",
+"precision": "town",
+"alternatives": 0
+},
+"ymir-old-growth-cedars": {
+"name": "Ymir old growth cedars",
+"aliases": [
+"ymir old growth cedars"
+],
+"how": "town:Ymir",
+"lat": 49.28319,
+"lon": -117.21777,
+"source": "BC Geographical Names",
+"feature": "Community",
+"official": "Ymir",
+"precision": "town",
+"alternatives": 0
+},
+"born-in-1951-hike": {
+"name": "Born in 1951 hike",
+"aliases": [
+"born in 1951 hike"
+],
+"how": "none"
+},
+"hiking-camp-2026-hume-creek": {
+"name": "Hiking Camp 2026 – Hume Creek",
+"aliases": [
+"hiking camp 2026 hume creek",
+"hiking camp 1 hume creek",
+"hiking camp 2 hume creek",
+"hiking camp 3 hume creek"
+],
+"how": "ll:50.814064,-117.083194",
+"lat": 50.814064,
+"lon": -117.083194,
+"source": "coordinates supplied by the club",
+"feature": null,
+"official": null,
+"precision": "place",
+"alternatives": 0
+}
+}

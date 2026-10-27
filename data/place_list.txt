@@ -1,0 +1,153 @@
+# One place per line:  Place name | how to find it | other names used in the schedules (normalised, ;-separated)
+# "how to find it":  bc:<official BC geographical name>   osm:<OpenStreetMap search text>   town:<community>   ll:<lat>,<lon> (placed by hand)
+# Places that cannot be found automatically are listed in data/places_todo.txt for placing by hand.
+Airy Mountain | bc:Airy Mountain | airy mountain
+Antenna Trail (Montrose) | osm:Antenna Trail, Montrose | antenna trail; antenna trail montrose; montrose antenna trail
+Pulpit Rock | osm:Pulpit Rock || osm:Pulpit Rock Trail | arishenkoffs bench dedication pulpit rock; lyons bluff pulpit rock loop; pulpit rock lyons bluff traverse
+Arlington Peak & Mt Ruppel | bc:Arlington Peak | arlington ruppel mts
+Badger / Rail Trail (Nelson) | osm:Great Northern Rail Trail, Nelson || town:Nelson | badger raccoon; badger rail trail nelson; rail badger trail nelson
+Beattie Peak - White Queen loop | bc:Mount Beattie | beattie white queen loop; beattie white queen loop larch photography hike; beattie whitequeen loop
+Better Than Nothing crag (Rossland) | town:Rossland | better than nothing rossland
+Smallwood / Bigwood trails | osm:Smallwood, Nelson || town:Nelson | bigwood crowsnest antler smallwood trail loop beasely; smallwod lookout nelson; smallwood lookout
+Bonnington Traverse | bc:Bonnington Range | bonnington traverse; bonnington traverse east; bonnington traverse east 2 days; east bonnington traverse 7 summits
+West Bonnington Traverse | bc:Grassy Mountain | west bonnington traverse grassy siwash copper
+Boomerang Mountain | bc:Boomerang Mountain | boomerang mountain
+Brilliant Overlook | osm:Brilliant Overlook | brillant overlook; brilliant overlook; brilliant overlook loop
+Cabin and Midday Peaks | bc:Midday Peak | cabin and midday peaks
+Cai Creek | bc:Cai Creek | cai creek lieutenant dan
+Castlegar crags | town:Castlegar | castlegar; crag climbing; crag day; local crag tbd; location and time tbd; location tbd
+Castlegar to Grand Forks ride | town:Castlegar | castlegar to grand forks overnight
+Cedar trail to Eagles Nest cabin | none | cedar trail to eagles nest cabin and back
+Cemetery / Graveyard trails (Nelson) | osm:Nelson Memorial Park || town:Nelson | cemetery trails nelson; graveyard trails
+Champion Lakes | bc:Champion Lakes | champion lakes provincial park
+Chickadee Wall / Waterline crags | town:Castlegar | chickadee wall waterline; waterline castlegar; waterline cragging
+College Creek peaks | osm:College Creek | college creek peaks; collge creek peaks 1987m and 2045m
+Columbia River paddle | town:Castlegar | columbia river
+Columbia River Trail | town:Castlegar | columbia river trail
+Columbia & Western Rail Trail | town:Castlegar | columbia western rail trail
+Mt Conner | bc:Mount Connor | conner mountain; mt conner
+Mt Brennan | bc:Mount Brennan | continuation of mt brennan trip; mt brennan; lyle lakes mt brennan; white queen mt brennan
+Copper Mountain | bc:Copper Mountain | copper mountain
+Cornice Ridge (Kootenay Pass) | osm:Kootenay Pass | cornice ridge kootenay pass; kootenay pass the crags
+Crawford Peninsula | town:Crawford Bay | crawford peninsula east side trail
+Creston Wetlands | osm:Creston Valley Wildlife Management Area | creston wetlands
+Davis Creek old growth | bc:Davis Creek | davis creek old growth trail
+Deer Park Mountain | bc:Deer Park Mountain | deer park; deer park mountain
+Deer Point trail | osm:Deer Point Trail | deer point trail
+DeLaurentiis Bluffs | osm:DeLaurentiis Bluffs | delaurentiis bluffs lookout; delaurentis bluffs
+Dennis Basin | bc:Dennis Creek | dennis basin; dennis creek
+Dove Hill | osm:Dove Hill | dove hill
+Drinnon Slabs | bc:Drinnon Lake | drinnon slabs
+Elephant Mountain | osm:Elephant Mountain || osm:Elephant Mountain Provincial Park || bc:Elephant Mountain Park | elephant mountain traverse
+Emerald Lake | none | emerald lake
+Mt Esmeralda | bc:Esmeralda Peak | esmeralda peak; mt esmerelda cond kokanee glacier
+Evans Creek | bc:Evans Creek | evans creek
+Evening Ridge | bc:Evening Ridge | evening ridge
+Faith, Hope and Charity | osm:Faith Peak || osm:Mount Faith | faith hope and charity all 3; faith mtn
+Fort Sheppard | none | fort sheppard
+Giegerich and Nansen | bc:Mount Giegerich | giegerich and nansen mountains; mt gingrich
+Gilpin Grasslands | osm:Gilpin Grasslands Provincial Park | gilpin grassland; gilpin grasslands provincial park
+Mt Gimli | bc:Gimli Peak | gimli; mt gimli
+Glade Tarn | none | glade tarn
+Goat Mountain (Grand Forks) | bc:Goat Mountain~grand forks | goat mountain grand forks
+Grand Forks rides | town:Grand Forks | grand forks loop; north fork granby loop grand forks; kettle river 50 km ride
+Grassy Mountain | bc:Grassy Mountain | grassy mountain
+Grays Peak | bc:Grays Peak | grays peak; mt gray
+Gwillim Lakes | bc:Gwillim Lakes | gwilliam lakes; gwillim lakes
+Haiseldean Lake | bc:Haiseldean Lake | haiseldean lake
+Half Dome & Ymir Peak | bc:Ymir Mountain | half dome; half dome and ymir peak traverse
+Slocan Lake paddles | bc:Slocan Lake | hills to slocan city; multi day paddle; finish paddle; slocan lake; slocan lake paddle overnight; silverton to slocan
+Whitewater Summit Trail (Hummingbird, Prospector, Sherpa) | osm:Whitewater Ski Resort || osm:Whitewater Ski | hummingbird lodge white queen raven chair hummingbird lodge loop; prospector and hummingbird peaks; prospector hummingbird sherpa peaks; summit trail; summit trail hummingbird prospector and sherpa
+Inspect Peak & Hampshire Mountain | bc:Hampshire Mountain | inspect peak and hampshire mountain
+Iron Mountain - Nevada Mountain | bc:Nevada Mountain | iron mt to nevada mt traverse; nevada mountain
+Jess Ridge / Rockslide Lake | bc:Rockslide Lake | jess ridge rockslide lake trail
+Kelly, Beaver and Stott | bc:Stott Peak | kelly beaver and stott mountains
+Kinnaird Bluffs | osm:Kinnaird Bluffs || town:Castlegar | kinnaird bluffs
+Kokanee Creek Park | bc:Kokanee Creek Park | kokanee creek; kokanee creek grassy trail and beach; kokanee creek prov park nelson
+Kokanee Creek Canyon | bc:Kokanee Creek | kokanee creek canyon
+Kokanee Lake | bc:Kokanee Lake | kokanee lake
+Kokanee Glacier Cabin | bc:Kaslo Lake | kokanee lodge
+Kokanee old growth cedars | osm:Kokanee Cedars || bc:Kokanee Creek Park | kokanee old growth cedars; kokanee old growth cedars nelson
+Lemon Lookout | bc:Lemon Creek | lemon lookout
+Lepsoe & Plewman | bc:Mount Lepsoe | lepsoe plewman
+Lightning Strike | osm:Kootenay Pass | lightning strike
+Lion's Head to Syringa ride | bc:Syringa Park | lions head to syringa; syringa towards deer park
+Lost Lake cabin | none | lost lake cabin and traverse on the 28th
+Lost Mountain | bc:Lost Mountain | lost mountain; lost mountain hike; lost mountain to june 13
+Lower Sentinel Bluffs (Castlegar) | town:Castlegar | lower sentinal bluffs castlegar; lower sentinel bluffs castlegar
+Lyle Lakes | osm:Lyle Lake || osm:Lyle Lakes | lyell lakes; lyle lakes
+McKean Lakes & Mt Woden | bc:Woden Peak | mckean lakes mt woden
+McPhee waterfall | bc:McPhee Creek | mcphee waterfall
+Mel Deanna Trail (Castlegar) | osm:Mel DeAnna Trail | mel deanna trail; mel deanna trail castlegar
+Merry Creek (Castlegar) | bc:Merry Creek | merry creek; merry creek castlegar
+Monica Meadows | osm:Monica Meadows | monica meadows
+Morning Mountain (Nelson) | bc:Morning Mountain | morning mountain; morning mountain trail nelson; morning mountain trails nelson
+Mt Robert Smith | bc:Mount Robert Smith | mr robert smith
+Mt Buchanan lookout | bc:Mount Buchanan | mt buchanon lookout
+Mt Carlyle | bc:Mount Carlyle | mt carlyle
+Drinnon Peak | bc:Drinnon Peak | mt drinnon
+Mt Dundee | bc:Mount Dundee | mt dundee
+Mt Fennell | bc:Mount Fennell | mt fennell
+Mt Gladstone | bc:Mount Gladstone | mt gladstone
+Mt Irvine | bc:Mount Irvine | mt irvine
+Mt Kirkup | bc:Mount Kirkup | mt kirkup
+Mt Lewis | none | mt lewis success
+Mt Mackie | bc:Mount Mackie | mt mackie
+Mt Plewman | bc:Mount Plewman | mt plewman; mt plewman and cutblock peaks; mt plewman and elgood
+Mt Reno | bc:Reno Mountain | mt reno
+Mt Roberts | bc:Mount Roberts | mt roberts; mt roberts and record
+Mt Sentinel | bc:Sentinel Mountain | mt sentinel
+Mt Shields | bc:Mount Shields | mt shields
+Mt Vingolf | bc:Mount Vingolf | mt vingolf
+Ymir Mountain | bc:Ymir Mountain | mt ymir; mt ymir traverse
+Nelson to Salmo ride | town:Nelson | nelson to salmo cycle
+Nelson to Syringa ride | town:Nelson | nelson to syringa cycle
+Noakes Upper Basin | bc:Noakes Lakes | noakes upper basin loop
+Norns Creek | bc:Norns Creek | norns tour
+Oasis Lookout | osm:Oasis Lookout || osm:Oasis | oasis lookout
+Old Glory | bc:Old Glory Mountain | old glory; old glory lookout; old glory lookout canada day
+Outlook, John Carter & Little John | bc:Outlook Mountain | outlook john carter little john
+Christina Lake paddle | bc:Christina Lake~christina lake | overnight kayak christina lake
+Pilot Bay / Pilot Peninsula | bc:Pilot Bay Park | overnight to pilot peninsula sawmill cove; pilot bay; pliot bay overnight
+Panther Creek | bc:Panther Creek | panther creek
+Passmore to Appledale ride | bc:Passmore | passmore to appledale
+Paulson trails | bc:Paulson | paulson trails
+Birdqueen Trail (trail work) | town:Rossland | pay it forward trail work
+Pend Oreille | bc:Pend d'Oreille River | pend oreille; pend oreille river
+Pontiac Peak | bc:Pontiac Peak | pontiac peak
+Rialto waterfalls | bc:Rialto Creek | rialto waterfalls
+Riondel | town:Riondel | riondel area; riondel historical tour waterline hike with terry turner; riondel historical walk
+Robson Ramble | osm:Robson, British Columbia | robson ramble
+Slocan Valley Rail Trail | osm:Slocan Valley Rail Trail || bc:Slocan Park | s slocan to springer creek; slocan valley rail trail; slocan pool to glade
+Salmo-Priest loop | osm:Salmo-Priest Wilderness || osm:Salmo Mountain | salmo priest loop
+Salmo ski hill | town:Salmo | salmo ski hill
+Salmo to Seven Mile Dam ride | town:Salmo | salmo to seven mile dam; seven mile dam; salmo to ymir and beyond gravel bike
+Sapphire Lakes | bc:Sapphire Lakes | sapphire lakes; sapphire lakes kokanee glacier park
+Scotchman Peak (Idaho) | osm:Scotchman Peak, Idaho | scotchman peak north idaho
+Selkirk College trails (Castlegar) | osm:Selkirk College, Castlegar | selkirk college trails castlegar
+Siwash Mountain | bc:Siwash Mountain | siwash; siwash mountain
+Slocan Bluffs | town:Slocan | slocan bluffs
+Slocan Pools | osm:Slocan Pools || bc:Slocan Park | slocan pools; slocan pools junction
+Smelterville crag | town:Trail | smelterville crag
+Sproule Creek (Nelson) | bc:Sproule Creek | sproule creek; sproule creek nelson
+Sunnyside crag (Nelson) | town:Nelson | sunnyside crag nelson
+Syringa Yellow Pines Trail | bc:Syringa Park | syringa yellow pines trail; yellow pine
+Taghum to Corra Linn Dam paddle | osm:Corra Linn Dam | taghum to corra linn dam
+Texas Peak | bc:Texas Peak | texas peak
+Thanksgiving Mountain | osm:Thanksgiving Mountain | thanksgiving mt gray creek pass
+The Monks | osm:The Monks | the monks; the monks peaks
+Toad Mountain | bc:Toad Mountain | toad mountain via giveout creek
+Trail to Glade ride | town:Glade | trail to glade
+Trapper Creek (Christina Lake) | bc:Trapper Creek~christina lake | trapper creek christina lake
+Twin Peaks | none | twin peaks
+Unacanuma trail | osm:Unacanuma || osm:Una Canuma | una canuma; unacanuma in reverse; unacanuma nelson; unacanuma nelson 2; unacanuma trail
+Waldie (Wulf) Lake | osm:Wulf Lake || bc:Wulf Creek | waldie wulf lake
+Wards Ferry - Rover Creek | bc:Rover Creek | wards ferry rover creek to glade
+Warfield Casino loop | town:Warfield | warfield casino loop
+White Queen | bc:White Queen | white queen
+Wolf Peak | bc:Wolf Peak | wolf peak; wolf peak via lost creek
+Ymir historical walk | town:Ymir | ymir; ymir historical
+Ymir old growth cedars | town:Ymir | ymir old growth cedars
+Born in 1951 hike | none | born in 1951 hike
+
+Hiking Camp 2026 – Hume Creek | ll:50.814064,-117.083194 | hiking camp 2026 hume creek; hiking camp 1 hume creek; hiking camp 2 hume creek; hiking camp 3 hume creek

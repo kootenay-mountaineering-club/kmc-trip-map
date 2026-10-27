@@ -1,0 +1,74 @@
+name: Update trips and publish site
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '17 10 * * *'      # every night (about 3 am Pacific): new tracks/photos from the shared folder, schedule changes
+  workflow_dispatch:
+  repository_dispatch:
+    types: [kmc-upload]          # started by the upload Worker right after a member uploads
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Python packages
+        run: pip install google-auth requests numpy pillow pillow-heif
+      - name: Re-import schedules, places and links
+        run: |
+          python scripts/import_schedule.py
+          python scripts/build_places.py
+          python scripts/link.py
+      - name: New GPS tracks and photos (shared Google Drive folder and website uploads)
+        env:
+          GDRIVE_SERVICE_ACCOUNT: ${{ secrets.GDRIVE_SERVICE_ACCOUNT }}
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+          UPLOAD_WORKER_URL: ${{ secrets.UPLOAD_WORKER_URL }}
+          PICKUP_KEY: ${{ secrets.PICKUP_KEY }}
+        run: |
+          python scripts/sync_drive.py
+          python scripts/sync_upload.py
+          python scripts/process_tracks.py
+          python scripts/link.py
+      - name: Save updated data
+        run: |
+          git config user.name "kmc-trips bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data photos 2>/dev/null || git add data
+          git diff --cached --quiet || git commit -m "Update trips, tracks and photos"
+          git pull --rebase
+          git push
+      - name: Remove published uploads from the upload bucket
+        env:
+          UPLOAD_WORKER_URL: ${{ secrets.UPLOAD_WORKER_URL }}
+          PICKUP_KEY: ${{ secrets.PICKUP_KEY }}
+        run: python scripts/sync_upload.py --done
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

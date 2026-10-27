@@ -1,0 +1,4 @@
+# newsletter PDFs are members' material: parse them locally, don't publish them
+raw/newsletters/*.pdf
+__pycache__/
+inbox/

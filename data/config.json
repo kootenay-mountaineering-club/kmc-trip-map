@@ -1,0 +1,15 @@
+{
+ "title": "KMC Trip Map",
+ "subtitle": "Kootenay Mountaineering Club trips, year by year",
+ "show_participants": false,
+ "participants_note": "Participant names from newsletter trip reports are hidden until the club decides whether to show them.",
+ "newsletter_note": "Trip reports are in the club newsletter.",
+ "suggest_email": "kmc-map@example.com",
+ "suggest_email_note": "Where \"Suggest a better location\" emails go. Replace with a real club address.",
+ "repo": "kootenay-mountaineering-club/kmc-trip-map",
+ "drive_folder_url": "",
+ "drive_folder_url_note": "Link to the shared Google Drive folder (or Google Form) where members add GPS tracks and photos.",
+ "trim_track_m": 300,
+ "upload_url": "",
+ "upload_url_note": "Address of the Cloudflare upload Worker (e.g. https://kmc-upload.<account>.workers.dev). Leave empty to hide the upload buttons."
+}

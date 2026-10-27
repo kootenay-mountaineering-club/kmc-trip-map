@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KMC Trip Map</title>
+<meta name="description" content="Kootenay Mountaineering Club trips on a map, year by year.">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header id="hdr">
+  <h1 id="title">KMC Trip Map</h1>
+  <div class="yearbar" id="years" role="tablist" aria-label="Year"></div>
+  <div class="stats" id="stats"></div>
+  <nav>
+    <a class="btn on" id="tabMap" href="#">Map</a>
+    <a class="btn" id="tabList" href="#list">List</a>
+    <button class="btn only-sm" id="tabFilt" aria-expanded="false">Filters</button>
+  </nav>
+</header>
+<div class="filters" id="filters"></div>
+<main>
+  <div id="map"></div>
+  <aside id="panel" aria-live="polite"><button id="closePanel" aria-label="Close">×</button><div id="panelInner"></div></aside>
+  <section id="list"></section>
+</main>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

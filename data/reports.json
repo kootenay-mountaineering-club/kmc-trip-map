@@ -1,0 +1,329 @@
+[
+ {
+  "issue": "2025-summer",
+  "page": 3,
+  "date": "2025-06-24",
+  "end": null,
+  "title": "Grays Peak",
+  "writer": "Steve Miros",
+  "participants": [
+   "Doug Clark",
+   "Peter Oostlander",
+   "Caroline Laface",
+   "Sandra Fuller",
+   "Reneta Zaal",
+   "George Mentz",
+   "Benoit Aubin"
+  ],
+  "participants_raw": "Doug Clark, Peter Oostlander, Caroline Laface, Sandra Fuller, Reneta Zaal, George Mentz, Benoit Aubin",
+  "stats": {
+   "gain_m": 1150,
+   "km": 7.2,
+   "hours": "7.5"
+  },
+  "words": 925
+ },
+ {
+  "issue": "2025-summer",
+  "page": 6,
+  "date": "2025-06-24",
+  "end": null,
+  "title": "Lyle Lakes",
+  "writer": "Sheila Sinkie",
+  "participants": [
+   "Tina Baldwin",
+   "Janis Issac",
+   "Dave Brackett",
+   "Andrea Vowell",
+   "Karina Gregory",
+   "Alison Etter",
+   "Heather Myers"
+  ],
+  "participants_raw": "Tina Baldwin, Janis Issac, Dave Brackett, Andrea Vowell, Karina Gregory, Alison Etter, Heather Myers.",
+  "stats": {},
+  "words": 162
+ },
+ {
+  "issue": "2025-summer",
+  "page": 7,
+  "date": "2025-06-28",
+  "end": null,
+  "title": "Passmore to Appledale ride",
+  "writer": "Marilyn Miller",
+  "participants": [
+   "Nanci Suuban",
+   "Mary Prothro",
+   "Louise Hammerich",
+   "Sandra England"
+  ],
+  "participants_raw": "Nanci Suuban, Mary Prothro, Louise Hammerich, Sandra England, ",
+  "stats": {},
+  "words": 100
+ },
+ {
+  "issue": "2025-summer",
+  "page": 8,
+  "date": "2025-06-28",
+  "end": null,
+  "title": "Mt Esmeralda",
+  "writer": "Steve Miros",
+  "participants": [
+   "Caroline Laface",
+   "Li Zhang",
+   "Dan Derby"
+  ],
+  "participants_raw": "Caroline Laface, Li Zhang, Dan Derby",
+  "stats": {},
+  "words": 1329
+ },
+ {
+  "issue": "2025-summer",
+  "page": 13,
+  "date": "2025-07-07",
+  "end": null,
+  "title": "Scotchman Peak, Idaho",
+  "writer": "Carl Rantzow",
+  "participants": [],
+  "participants_raw": null,
+  "stats": {},
+  "words": 113
+ },
+ {
+  "issue": "2025-summer",
+  "page": 14,
+  "date": "2025-07-09",
+  "end": null,
+  "title": "White Queen Beattie Loop",
+  "writer": "Andrea Vowell and Chris Cowan, co-leader",
+  "participants": [
+   "Paul Comey",
+   "Linda Comey",
+   "Scott Wilson",
+   "Karen Harker",
+   "Li Zh",
+   "Helen Foulger",
+   "Don Harasym",
+   "Brenda Basran",
+   "Terry Simpson"
+  ],
+  "participants_raw": "Paul and Linda Comey, Scott Wilson, Karen Harker, Li Zh, Helen Foulger, Don Harasym, Brenda Basran, Terry Simpson",
+  "stats": {},
+  "words": 488
+ },
+ {
+  "issue": "2025-summer",
+  "page": 32,
+  "date": "2025-08-05",
+  "end": null,
+  "title": "Arlington Peak- Mt Ruppel",
+  "writer": "Doug Clark",
+  "participants": [
+   "Steve Miros",
+   "Francois",
+   "Sandra Fuller",
+   "Caroline LaFace",
+   "Viola Vatter",
+   "Peter Oostlander"
+  ],
+  "participants_raw": "Steve Miros, his son Francois, Sandra Fuller, Caroline LaFace, Viola Vatter, Peter Oostlander",
+  "stats": {
+   "gain_m": 1000
+  },
+  "words": 293
+ },
+ {
+  "issue": "2025-summer",
+  "page": 34,
+  "date": "2025-08-09",
+  "end": null,
+  "title": "Mt Connor",
+  "writer": "Doug Clark",
+  "participants": [
+   "Max Karpinski",
+   "Jocelyn Martens",
+   "Murray Bennett",
+   "Taylor Scarpelli",
+   "Dylan Saunders"
+  ],
+  "participants_raw": "Max Karpinski, Jocelyn Martens, Murray Bennett, Taylor Scarpelli, Dylan Saunders",
+  "stats": {},
+  "words": 107
+ },
+ {
+  "issue": "2025-summer",
+  "page": 35,
+  "date": "2025-08-10",
+  "end": null,
+  "title": "Siwash Mountain",
+  "writer": "Doug Clark",
+  "participants": [
+   "Max Karpinski",
+   "Jocelyn Martens",
+   "Linda Cooney",
+   "Paul Cooney",
+   "Jessica Munn",
+   "Joe Munn",
+   "Peter Oostlander",
+   "Laurie Helyer",
+   "Stephen Piernitzki",
+   "Doug Clark"
+  ],
+  "participants_raw": "Max Karpinski, Jocelyn Martens, Linda and Paul Cooney, Jessica and Joe Munn, Peter Oostlander, Laurie Helyer, Stephen Piernitzki, Doug Clark (Trip Coordinator).",
+  "stats": {},
+  "words": 299
+ },
+ {
+  "issue": "2025-summer",
+  "page": 36,
+  "date": "2025-08-23",
+  "end": null,
+  "title": "A Pleasant Day in the Norns Creek Neighbourhood",
+  "writer": "Doug Clark",
+  "participants": [
+   "Murray Bennett",
+   "Doug Orr",
+   "Larry Doell",
+   "Brenda Basran",
+   "Kathy Poznikoff",
+   "Peter Oostlander",
+   "Viola Vatter",
+   "Kevin Forsyth",
+   "Renee Marceau",
+   "Eric Ridington",
+   "Fred Thiessen"
+  ],
+  "participants_raw": "Murray Bennett, Doug Orr, Larry Doell, Brenda Basran, Kathy Poznikoff, Peter Oostlander, Viola Vatter, Kevin Forsyth, Renee Marceau, Eric Ridington, Fred Thiessen,",
+  "stats": {},
+  "words": 229
+ },
+ {
+  "issue": "2025-summer",
+  "page": 37,
+  "date": "2025-08-30",
+  "end": null,
+  "title": "Hummingbird, Prospector and Sherpa Peaks via the Summit Trail at Whitewater",
+  "writer": "Alison Etter",
+  "participants": [
+   "Sharon Henderson",
+   "Dylan Saunders",
+   "Doug Austin",
+   "Marie-Josee Beaulieu",
+   "Francois Gosselin",
+   "Helen Fouger",
+   "Carmen Carter",
+   "Karin Nagels"
+  ],
+  "participants_raw": "Sharon Henderson, Dylan Saunders, Doug Austin, Marie-Josee Beaulieu, Francois Gosselin, Helen Fouger, Carmen Carter, Karin Nagels",
+  "stats": {
+   "km": 12.0,
+   "hours": "6½"
+  },
+  "words": 393
+ },
+ {
+  "issue": "2025-summer",
+  "page": 39,
+  "date": "2025-08-30",
+  "end": "2025-09-02",
+  "title": "Bonnington Traverse",
+  "writer": "Doug Clark",
+  "participants": [
+   "Larry Bickerton",
+   "Michelle Tanguay",
+   "Mike Tanguay",
+   "Elena Cigala-Fulgosi",
+   "Kurt Young"
+  ],
+  "participants_raw": "Larry Bickerton, Michelle and Mike Tanguay, Elena Cigala-Fulgosi, Kurt Young",
+  "stats": {
+   "gain_m": 3000
+  },
+  "words": 876
+ },
+ {
+  "issue": "2025-summer",
+  "page": 42,
+  "date": "2025-09-03",
+  "end": null,
+  "title": "Publicity Event",
+  "writer": null,
+  "participants": [],
+  "participants_raw": null,
+  "stats": {},
+  "words": 95
+ },
+ {
+  "issue": "2025-summer",
+  "page": 43,
+  "date": "2025-09-10",
+  "end": null,
+  "title": "Sapphire Lakes",
+  "writer": "Larry Bickerton",
+  "participants": [
+   "Caroline LaFace",
+   "Marilyn Nelson",
+   "Tina Baldwin",
+   "Paul Barrette"
+  ],
+  "participants_raw": "Caroline LaFace, Marilyn Nelson, Tina Baldwin, Paul Barrette",
+  "stats": {
+   "gain_m": 1000,
+   "km": 18.0
+  },
+  "words": 286
+ },
+ {
+  "issue": "2025-summer",
+  "page": 44,
+  "date": "2025-09-10",
+  "end": null,
+  "title": "Half Dome Ymir Mtn Traverse",
+  "writer": "Steve Miros",
+  "participants": [
+   "Ben",
+   "Reneta",
+   "Kathryn"
+  ],
+  "participants_raw": "Ben, Reneta and Kathryn for a great day",
+  "stats": {},
+  "words": 525
+ },
+ {
+  "issue": "2025-summer",
+  "page": 47,
+  "date": "2025-09-16",
+  "end": null,
+  "title": "Mount Vingolf",
+  "writer": "Steve Miros",
+  "participants": [
+   "Peter Oostlander",
+   "Ben Aubin",
+   "Carl Rantzow"
+  ],
+  "participants_raw": "Peter Oostlander, Ben Aubin, Carl Rantzow.",
+  "stats": {
+   "gain_m": 1000,
+   "km": 9.0
+  },
+  "words": 637
+ },
+ {
+  "issue": "2025-summer",
+  "page": 51,
+  "date": "2025-09-20",
+  "end": null,
+  "title": "Drinnan Peak",
+  "writer": "Steve Miros",
+  "participants": [
+   "Chris Cowan",
+   "Peter Oostlander",
+   "Reneta Zaal"
+  ],
+  "participants_raw": "Chris Cowan, Peter Oostlander, Reneta Zaal",
+  "stats": {
+   "gain_m": 1003,
+   "km": 8.0
+  },
+  "words": 2114
+ }
+]

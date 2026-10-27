@@ -1,0 +1,11 @@
+{
+ "_note": "Trips that are not rows in a schedule sheet (e.g. hiking camps). Same fields as the schedule; dates are ISO (YYYY-MM-DD).",
+ "trips": [
+  {"year": 2026, "date": "2026-07-11", "end": "2026-07-18", "name": "Hiking Camp 1 – Hume Creek", "type": "Camp", "place_name": "Hiking Camp 2026 – Hume Creek",
+   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."},
+  {"year": 2026, "date": "2026-07-18", "end": "2026-07-25", "name": "Hiking Camp 2 – Hume Creek", "type": "Camp", "place_name": "Hiking Camp 2026 – Hume Creek",
+   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."},
+  {"year": 2026, "date": "2026-07-25", "end": "2026-08-01", "name": "Hiking Camp 3 – Hume Creek", "type": "Camp", "place_name": "Hiking Camp 2026 – Hume Creek",
+   "notes": "Hume Creek, Purcell Range, west of Tetragon Peak and Crystalline Mt. Camp at 1943 m / 6376 ft."}
+ ]
+}

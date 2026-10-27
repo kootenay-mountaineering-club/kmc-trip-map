@@ -1,0 +1,12 @@
+Places that still need to be placed by hand:
+Cedar trail to Eagles Nest cabin  (none)
+College Creek peaks  (osm:College Creek)
+Elephant Mountain  (osm:Elephant Mountain || osm:Elephant Mountain Provincial Park || bc:Elephant Mountain Park)
+Emerald Lake  (none)
+Fort Sheppard  (none)
+Glade Tarn  (none)
+Lost Lake cabin  (none)
+Mt Lewis  (none)
+The Monks  (osm:The Monks)
+Twin Peaks  (none)
+Born in 1951 hike  (none)

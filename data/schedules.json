@@ -1,0 +1,5 @@
+{
+ "2024": {"file": "raw/s2024_web.csv", "note": "public web version (date, destination, type, grade only)"},
+ "2025": {"file": "raw/s2025.csv", "note": "from the 2025 summer trip planner; phone and email columns removed"},
+ "2026": {"csv": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRTOQU2-8Ws_3sdPFi1I3PrZeGldjmF0G1ix43szDdarhz1Gc4fvZAcyWc9HV48cSCShHNBB-yMOI_P/pub?output=csv"}
+}

@@ -1,0 +1,13 @@
+# Optional: deploy from the command line with  npx wrangler deploy  (the Cloudflare dashboard works just as well).
+# Secrets are set with  npx wrangler secret put UPLOAD_PASSWORD  (and ADMIN_PASSWORD, GITHUB_TOKEN, PICKUP_KEY).
+name = "kmc-upload"
+main = "upload-worker.js"
+compatibility_date = "2025-06-01"
+
+[vars]
+GITHUB_REPO = "kootenay-mountaineering-club/kmc-trip-map"
+ALLOWED_ORIGIN = "https://kootenay-mountaineering-club.github.io"
+
+[[r2_buckets]]
+binding = "INBOX"
+bucket_name = "kmc-uploads"
